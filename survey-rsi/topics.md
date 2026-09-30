@@ -30,6 +30,7 @@
 - [Can Vision-Language-Action Models Learn from Real-World Data Continually without Forgetting?](papers/continual-vla-real-world.md) — 核心持续学习 / 经验回放 / 动作归一化 / 真机十任务
 - [Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning](papers/pretrained-vla-forgetting.md) — 持续学习 / VLA预训练 / 经验回放 / 纯仿真
 - [An Analysis of Streaming Deep Reinforcement Learning for Adaptive Continual Learning in Robotics](papers/streaming-deep-rl-continual-robotics.md) — 核心持续改进 / 流式强化学习 / 塑性 / 纯仿真
+- [Skill-Space Shooting for Autonomous Robot Policy Improvement](papers/skill-space-shooting.md) — 核心自我改进 / 真机纠错监督 / 技能辅助 / 策略持久更新 / 人工复位 / 非递归
 
 <a id="world"></a>
 
@@ -47,6 +48,7 @@
 - [Precision at Speed: Sample-Efficient Online Model-Based Reinforcement Learning for Hydraulic Excavator Control](papers/precision-at-speed.md) — 核心自我改进 / 在线模型学习 / 模型式强化学习 / 重型机器人 / 真机
 - [VLaRL: Augmenting Vision-Language-Action Models with Simulation-Trained Latent-Conditioned Residual RL](papers/vlarl.md) — 支撑组件 / 残差策略 / VLA-RL / sim-to-real / 真机
 - [Streaming-WAM: Action-Conditioned World-Action Model for Asynchronous Robot Manipulation](papers/streaming-wam.md) — 支撑组件 / 世界动作模型 / 异步控制 / 真机
+- [HapticWorld: an Interactive World Simulator with Real-time Torque Feedback](papers/hapticworld.md) — 支撑组件 / 力觉世界模拟器 / 人在环采集 / 真机验证 / 非持续自改进
 
 <a id="skills"></a>
 
@@ -69,6 +71,8 @@
 - [RAPID: Robot Agentic Programming from Demonstrations](papers/rapid.md) — 机器人程序 / 编码代理 / 验证 / 仿真与真机
 - [Robot Manipulation with GPT-6-Astra: Body Knowledge, Experience Reuse, Emergent Skills, and Sim2Real Transfer](papers/robot-manipulation-gpt6-astra.md) — 边界案例 / GPT-6-Astra / 身体知识 / 经验复用 / 代码技能 / sim-to-real / 真机 / 固定模型
 - [What Stops Recursive Self-Improvement in Robotics? Lessons from 123 Rounds of Agentic Skill Discovery](papers/what-stops-recursive-self-improvement-robotics.md) — 严格递归候选 / 改进器审计 / 技能与harness / 长程信用分配 / 负结果 / 纯仿真 / 技术报告
+- [Skill-Space Shooting for Autonomous Robot Policy Improvement](papers/skill-space-shooting.md) — 核心自我改进 / 真机纠错监督 / 技能辅助 / 策略持久更新 / 人工复位 / 非递归
+- [Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents](papers/roboskill-explore-execute-evolve.md) — 持续改进 / 外部技能与代码 / 跨任务复用 / 触觉反馈 / 真机 / 非递归
 
 <a id="memory"></a>
 
@@ -89,6 +93,7 @@
 - [Robot Manipulation with GPT-6-Astra: Body Knowledge, Experience Reuse, Emergent Skills, and Sim2Real Transfer](papers/robot-manipulation-gpt6-astra.md) — 边界案例 / GPT-6-Astra / 身体知识 / 经验复用 / 代码技能 / sim-to-real / 真机 / 固定模型
 - [OCC4M: Object-Centric 4D Memory for Spatiotemporal Reasoning in Long-Horizon Manipulation](papers/occ4m.md) — 支撑组件 / 对象中心记忆 / 任务内状态 / 真机
 - [Watch, Recall, Act: Always-On Robots in Concurrent Embodied Streams](papers/watch-recall-act.md) — 支撑组件 / 自历史记忆 / 不重置流 / 双臂真机
+- [Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents](papers/roboskill-explore-execute-evolve.md) — 持续改进 / 外部技能与代码 / 跨任务复用 / 触觉反馈 / 真机 / 非递归
 
 <a id="continual"></a>
 
@@ -111,6 +116,8 @@
 - [Can Vision-Language-Action Models Learn from Real-World Data Continually without Forgetting?](papers/continual-vla-real-world.md) — 核心持续学习 / 经验回放 / 动作归一化 / 真机十任务
 - [Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning](papers/pretrained-vla-forgetting.md) — 持续学习 / VLA预训练 / 经验回放 / 纯仿真
 - [An Analysis of Streaming Deep Reinforcement Learning for Adaptive Continual Learning in Robotics](papers/streaming-deep-rl-continual-robotics.md) — 核心持续改进 / 流式强化学习 / 塑性 / 纯仿真
+- [Skill-Space Shooting for Autonomous Robot Policy Improvement](papers/skill-space-shooting.md) — 核心自我改进 / 真机纠错监督 / 技能辅助 / 策略持久更新 / 人工复位 / 非递归
+- [Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents](papers/roboskill-explore-execute-evolve.md) — 持续改进 / 外部技能与代码 / 跨任务复用 / 触觉反馈 / 真机 / 非递归
 
 <a id="feedback"></a>
 
@@ -134,6 +141,7 @@
 - [RAPID: Robot Agentic Programming from Demonstrations](papers/rapid.md) — 机器人程序 / 编码代理 / 验证 / 仿真与真机
 - [Find Something You Can't Do: Agentic Real-World Reinforcement Learning for Self-Improving VLA Models](papers/find-agentic-real-world-rl.md) — 核心自我改进 / 真机在线RL / VLA残差策略 / 自动课程 / 自我评估 / 低复位 / 多任务持续学习 / 非递归
 - [What Stops Recursive Self-Improvement in Robotics? Lessons from 123 Rounds of Agentic Skill Discovery](papers/what-stops-recursive-self-improvement-robotics.md) — 严格递归候选 / 改进器审计 / 技能与harness / 长程信用分配 / 负结果 / 纯仿真 / 技术报告
+- [PHIRL: Aligning Learned Rewards with Task Progress for Inverse Reinforcement Learning](papers/phirl.md) — 支撑组件 / 奖励学习 / 进度监督 / 奖励投机 / 真机单任务 / 非递归
 
 <a id="infrastructure"></a>
 
@@ -153,6 +161,7 @@
 - [Find Something You Can't Do: Agentic Real-World Reinforcement Learning for Self-Improving VLA Models](papers/find-agentic-real-world-rl.md) — 核心自我改进 / 真机在线RL / VLA残差策略 / 自动课程 / 自我评估 / 低复位 / 多任务持续学习 / 非递归
 - [TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action Model Fine-tuning](papers/tandem.md) — 支撑组件 / 自动数据采集 / 人机协同 / 真机
 - [Watch, Recall, Act: Always-On Robots in Concurrent Embodied Streams](papers/watch-recall-act.md) — 支撑组件 / 自历史记忆 / 不重置流 / 双臂真机
+- [HapticWorld: an Interactive World Simulator with Real-time Torque Feedback](papers/hapticworld.md) — 支撑组件 / 力觉世界模拟器 / 人在环采集 / 真机验证 / 非持续自改进
 
 <a id="curriculum"></a>
 
@@ -176,6 +185,7 @@
 - [Learning and Transferring Closed-Loop Robot Software](papers/learning-transferring-robot-software.md) — 核心自我改进 / 代码演化 / 跨任务迁移 / 仿真
 - [AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution](papers/adahvla.md) — 核心自我改进 / harness代码 / 跨任务记忆 / 仿真为主
 - [What Stops Recursive Self-Improvement in Robotics? Lessons from 123 Rounds of Agentic Skill Discovery](papers/what-stops-recursive-self-improvement-robotics.md) — 严格递归候选 / 改进器审计 / 技能与harness / 长程信用分配 / 负结果 / 纯仿真 / 技术报告
+- [Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents](papers/roboskill-explore-execute-evolve.md) — 持续改进 / 外部技能与代码 / 跨任务复用 / 触觉反馈 / 真机 / 非递归
 
 <a id="surveys"></a>
 

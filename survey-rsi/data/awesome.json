@@ -4,20 +4,66 @@
     "title": "策略与 VLA 学习",
     "question": "机器人执行后的反馈怎样进入策略？更新是否真正留存？",
     "papers": [
-      {"slug": "find-agentic-real-world-rl", "summary": "自选弱项任务、用前后图像自评，并在线更新真机残差策略。"},
-      {"slug": "rapolicy", "summary": "异步采集与行为锚定 critic 支持真机 VLA 在线后训练。"},
-      {"slug": "forcerft", "summary": "冻结基础 VLA，用力觉与人工接管持续训练残差策略。"},
-      {"slug": "dexpie", "summary": "利用失败、人工纠正与部分进展，更新灵巧操作策略。"},
-      {"slug": "bee", "summary": "把人工接管的不确定性转成逐维约束，在线训练残差策略。"},
-      {"slug": "srpo", "summary": "以同批成功轨迹构造失败进度奖励，再优化 VLA 策略。"},
-      {"slug": "pacl", "summary": "用动作块 critic 利用混合质量部署数据，批次后训练扩散策略。"},
-      {"slug": "streaming-deep-rl-continual-robotics", "summary": "逐 transition 无回放更新，观察恢复能力与峰值后衰退。"},
-      {"slug": "uncertainty-gated-exploration", "summary": "不确定性门控减轻在线 PPO 任务坍缩，但未超行为克隆起点。"},
-      {"slug": "advantage-guided-vla-post-training", "summary": "拆分优势估计、校准与加权，检验离线 VLA 后训练。"},
-      {"slug": "vlarl", "summary": "数字孪生训练残差策略后冻结上机，部署时不继续学习。"},
-      {"slug": "generate-track-improve", "summary": "在仿真中用 RL 微调运动生成器，再冻结部署人形机器人。"},
-      {"slug": "banana-kick", "summary": "根据物理响应调整奖励目标，迭代学习人形足球新技能。"},
-      {"slug": "routerlt", "summary": "冻结通用 VLA 与 RL 专家，学习何时切换控制权。"}
+      {
+        "slug": "find-agentic-real-world-rl",
+        "summary": "自选弱项任务、用前后图像自评，并在线更新真机残差策略。"
+      },
+      {
+        "slug": "rapolicy",
+        "summary": "异步采集与行为锚定 critic 支持真机 VLA 在线后训练。"
+      },
+      {
+        "slug": "forcerft",
+        "summary": "冻结基础 VLA，用力觉与人工接管持续训练残差策略。"
+      },
+      {
+        "slug": "dexpie",
+        "summary": "利用失败、人工纠正与部分进展，更新灵巧操作策略。"
+      },
+      {
+        "slug": "bee",
+        "summary": "把人工接管的不确定性转成逐维约束，在线训练残差策略。"
+      },
+      {
+        "slug": "srpo",
+        "summary": "以同批成功轨迹构造失败进度奖励，再优化 VLA 策略。"
+      },
+      {
+        "slug": "pacl",
+        "summary": "用动作块 critic 利用混合质量部署数据，批次后训练扩散策略。"
+      },
+      {
+        "slug": "streaming-deep-rl-continual-robotics",
+        "summary": "逐 transition 无回放更新，观察恢复能力与峰值后衰退。"
+      },
+      {
+        "slug": "uncertainty-gated-exploration",
+        "summary": "不确定性门控减轻在线 PPO 任务坍缩，但未超行为克隆起点。"
+      },
+      {
+        "slug": "advantage-guided-vla-post-training",
+        "summary": "拆分优势估计、校准与加权，检验离线 VLA 后训练。"
+      },
+      {
+        "slug": "vlarl",
+        "summary": "数字孪生训练残差策略后冻结上机，部署时不继续学习。"
+      },
+      {
+        "slug": "generate-track-improve",
+        "summary": "在仿真中用 RL 微调运动生成器，再冻结部署人形机器人。"
+      },
+      {
+        "slug": "banana-kick",
+        "summary": "根据物理响应调整奖励目标，迭代学习人形足球新技能。"
+      },
+      {
+        "slug": "routerlt",
+        "summary": "冻结通用 VLA 与 RL 专家，学习何时切换控制权。"
+      },
+      {
+        "slug": "skill-space-shooting",
+        "summary": "用已有技能修补真机策略失败，并把成功纠错片段训练回独立运行的策略。"
+      }
     ]
   },
   {
@@ -25,14 +71,42 @@
     "title": "世界模型与控制接口",
     "question": "预测是否改善行动？模型在部署后有没有更新？",
     "papers": [
-      {"slug": "ad-wm", "summary": "让世界模型区分候选动作，支撑反事实 MPC。"},
-      {"slug": "claw", "summary": "由上下文超网络生成 LoRA，快速适应世界模型的动力学变化。"},
-      {"slug": "internw0", "summary": "联合视频—动作建模与异步推理，将预测接入控制。"},
-      {"slug": "osram", "summary": "部署后更新闭环模型并修正参考命令，底层策略冻结。"},
-      {"slug": "precision-at-speed", "summary": "在真机上持续更新挖掘机动力学模型，并用 MPPI 跟踪轨迹。"},
-      {"slug": "streaming-wam", "summary": "用已执行动作前缀约束后续预测，减少异步控制等待。"},
-      {"slug": "world-model-benchmarks-survey", "summary": "梳理 160 个基准，审查世界模型预测是否连接实际行动收益。"},
-      {"slug": "world-models-actionable-survey", "summary": "从可信预测、干预响应与行动效用三个层次组织世界模型文献。"}
+      {
+        "slug": "ad-wm",
+        "summary": "让世界模型区分候选动作，支撑反事实 MPC。"
+      },
+      {
+        "slug": "claw",
+        "summary": "由上下文超网络生成 LoRA，快速适应世界模型的动力学变化。"
+      },
+      {
+        "slug": "internw0",
+        "summary": "联合视频—动作建模与异步推理，将预测接入控制。"
+      },
+      {
+        "slug": "osram",
+        "summary": "部署后更新闭环模型并修正参考命令，底层策略冻结。"
+      },
+      {
+        "slug": "precision-at-speed",
+        "summary": "在真机上持续更新挖掘机动力学模型，并用 MPPI 跟踪轨迹。"
+      },
+      {
+        "slug": "streaming-wam",
+        "summary": "用已执行动作前缀约束后续预测，减少异步控制等待。"
+      },
+      {
+        "slug": "world-model-benchmarks-survey",
+        "summary": "梳理 160 个基准，审查世界模型预测是否连接实际行动收益。"
+      },
+      {
+        "slug": "world-models-actionable-survey",
+        "summary": "从可信预测、干预响应与行动效用三个层次组织世界模型文献。"
+      },
+      {
+        "slug": "hapticworld",
+        "summary": "在交互式世界模型中预测并回馈扭矩，辅助力觉示范采集与真机策略训练。"
+      }
     ]
   },
   {
@@ -40,17 +114,50 @@
     "title": "记忆与上下文适应",
     "question": "信息保留多久？记忆是否帮助机器人作出正确决策？",
     "papers": [
-      {"slug": "2am", "summary": "将长程任务状态放到 agent 侧记忆，为动作模型提供局部引导。"},
-      {"slug": "counterfactual-memory-audit", "summary": "用记忆替换与恢复做因果审计，区分动作变化和正确使用记忆。"},
-      {"slug": "membodied", "summary": "联想状态改善单次 rollout 决策；跨 episode 携带反而负迁移。"},
-      {"slug": "messymem", "summary": "把交互揭示的物体属性写入持久 3D 场景图，供后续任务检索。"},
-      {"slug": "occ4m", "summary": "显式记录对象身份和 4D 轨迹，支持单次长程操作的时空记忆。"},
-      {"slug": "safemem", "summary": "长期图记忆保存离开视野的风险信息，并约束任务规划。"},
-      {"slug": "self-adaptive-vla", "summary": "将失败 rollout 压成上下文 token，在同一部署实例内逐次适应。"},
-      {"slug": "watch-recall-act", "summary": "在不重置的双臂流中持续读取自历史，部署参数仍固定。"},
-      {"slug": "zeva-ego", "summary": "用同实例先前尝试的因果转移辅助冻结 VLA；新实例清空记忆。"},
-      {"slug": "beyond-end-task-success-audit", "summary": "把经验本身质量与场景匹配质量拆开，审计经验检索。"},
-      {"slug": "memobench", "summary": "用存储、更新与压缩检查点评价历史依赖任务的记忆过程。"}
+      {
+        "slug": "2am",
+        "summary": "将长程任务状态放到 agent 侧记忆，为动作模型提供局部引导。"
+      },
+      {
+        "slug": "counterfactual-memory-audit",
+        "summary": "用记忆替换与恢复做因果审计，区分动作变化和正确使用记忆。"
+      },
+      {
+        "slug": "membodied",
+        "summary": "联想状态改善单次 rollout 决策；跨 episode 携带反而负迁移。"
+      },
+      {
+        "slug": "messymem",
+        "summary": "把交互揭示的物体属性写入持久 3D 场景图，供后续任务检索。"
+      },
+      {
+        "slug": "occ4m",
+        "summary": "显式记录对象身份和 4D 轨迹，支持单次长程操作的时空记忆。"
+      },
+      {
+        "slug": "safemem",
+        "summary": "长期图记忆保存离开视野的风险信息，并约束任务规划。"
+      },
+      {
+        "slug": "self-adaptive-vla",
+        "summary": "将失败 rollout 压成上下文 token，在同一部署实例内逐次适应。"
+      },
+      {
+        "slug": "watch-recall-act",
+        "summary": "在不重置的双臂流中持续读取自历史，部署参数仍固定。"
+      },
+      {
+        "slug": "zeva-ego",
+        "summary": "用同实例先前尝试的因果转移辅助冻结 VLA；新实例清空记忆。"
+      },
+      {
+        "slug": "beyond-end-task-success-audit",
+        "summary": "把经验本身质量与场景匹配质量拆开，审计经验检索。"
+      },
+      {
+        "slug": "memobench",
+        "summary": "用存储、更新与压缩检查点评价历史依赖任务的记忆过程。"
+      }
     ]
   },
   {
@@ -58,19 +165,62 @@
     "title": "技能、代码与 harness",
     "question": "改写的是执行程序、外部技能，还是产生更新的规则？",
     "papers": [
-      {"slug": "adahvla", "summary": "依据执行证据修订协调代码，并跨任务保留候选与结果图。"},
-      {"slug": "embodiedskills", "summary": "用技能契约连接前置验证、有界执行、后验检查与恢复。"},
-      {"slug": "generalizing-manipulation-local-coding-agent", "summary": "本地编码代理编写机器人程序，并在同一会话复用测量与代码。"},
-      {"slug": "know-your-body", "summary": "冻结 VLM，跨 episode 发布经验证的身体模型与知识规则。"},
-      {"slug": "learning-transferring-robot-software", "summary": "编码代理依据仿真反馈修改闭环程序，并向新任务转移代码档案。"},
-      {"slug": "lemca", "summary": "搜索模式切换控制架构，在任务回报与计算资源间权衡。"},
-      {"slug": "racap", "summary": "部署前演化 Policy API、ReAct harness 与经验记忆，随后冻结执行。"},
-      {"slug": "rapid", "summary": "从示范构造机器人程序，并在模拟验证环境中反复修订。"},
-      {"slug": "regenharness", "summary": "提出可追溯的 harness 修订协议；真机案例尚未证明递归收益。"},
-      {"slug": "robot-manipulation-gpt6-astra", "summary": "冻结模型，通过身体知识、同步经验与局部程序改善单任务操作。"},
-      {"slug": "show-harness", "summary": "用离散语义动作与形态专用解释器连接 VLM 和机器人。"},
-      {"slug": "world-action-agent", "summary": "VLM 预演并审查多模态技能，发布后冻结执行。"},
-      {"slug": "what-stops-recursive-self-improvement-robotics", "summary": "审计 123 轮技能与 harness 修改：目标任务零成功，另有 113 次人工修复。"}
+      {
+        "slug": "adahvla",
+        "summary": "依据执行证据修订协调代码，并跨任务保留候选与结果图。"
+      },
+      {
+        "slug": "embodiedskills",
+        "summary": "用技能契约连接前置验证、有界执行、后验检查与恢复。"
+      },
+      {
+        "slug": "generalizing-manipulation-local-coding-agent",
+        "summary": "本地编码代理编写机器人程序，并在同一会话复用测量与代码。"
+      },
+      {
+        "slug": "know-your-body",
+        "summary": "冻结 VLM，跨 episode 发布经验证的身体模型与知识规则。"
+      },
+      {
+        "slug": "learning-transferring-robot-software",
+        "summary": "编码代理依据仿真反馈修改闭环程序，并向新任务转移代码档案。"
+      },
+      {
+        "slug": "lemca",
+        "summary": "搜索模式切换控制架构，在任务回报与计算资源间权衡。"
+      },
+      {
+        "slug": "racap",
+        "summary": "部署前演化 Policy API、ReAct harness 与经验记忆，随后冻结执行。"
+      },
+      {
+        "slug": "rapid",
+        "summary": "从示范构造机器人程序，并在模拟验证环境中反复修订。"
+      },
+      {
+        "slug": "regenharness",
+        "summary": "提出可追溯的 harness 修订协议；真机案例尚未证明递归收益。"
+      },
+      {
+        "slug": "robot-manipulation-gpt6-astra",
+        "summary": "冻结模型，通过身体知识、同步经验与局部程序改善单任务操作。"
+      },
+      {
+        "slug": "show-harness",
+        "summary": "用离散语义动作与形态专用解释器连接 VLM 和机器人。"
+      },
+      {
+        "slug": "world-action-agent",
+        "summary": "VLM 预演并审查多模态技能，发布后冻结执行。"
+      },
+      {
+        "slug": "what-stops-recursive-self-improvement-robotics",
+        "summary": "审计 123 轮技能与 harness 修改：目标任务零成功，另有 113 次人工修复。"
+      },
+      {
+        "slug": "roboskill-explore-execute-evolve",
+        "summary": "将执行记录提炼为可跨任务和代理复用的文本与代码技能包，迭代修订增益非单调。"
+      }
     ]
   },
   {
@@ -78,11 +228,30 @@
     "title": "奖励、验证器与安全反馈",
     "question": "谁决定更新方向？谁独立验收更新确实有用？",
     "papers": [
-      {"slug": "hire", "summary": "用成功与失败观测修订奖励，再在线微调策略。"},
-      {"slug": "agenticrl", "summary": "用实际失败诊断定向修改 UAV 奖励代码，再训练与筛选策略。"},
-      {"slug": "no-free-checker", "summary": "梳理机器人验证器的来源、成本与可信度及约 150 项相关工作。"},
-      {"slug": "seeq", "summary": "训练可迁移视觉语言 Q 函数，为冻结 VLA 的动作候选排序。"},
-      {"slug": "vla-corrector", "summary": "用可观测信号检测阶段偏差，触发冻结 VLA 的任务内恢复。"}
+      {
+        "slug": "hire",
+        "summary": "用成功与失败观测修订奖励，再在线微调策略。"
+      },
+      {
+        "slug": "agenticrl",
+        "summary": "用实际失败诊断定向修改 UAV 奖励代码，再训练与筛选策略。"
+      },
+      {
+        "slug": "no-free-checker",
+        "summary": "梳理机器人验证器的来源、成本与可信度及约 150 项相关工作。"
+      },
+      {
+        "slug": "seeq",
+        "summary": "训练可迁移视觉语言 Q 函数，为冻结 VLA 的动作候选排序。"
+      },
+      {
+        "slug": "vla-corrector",
+        "summary": "用可观测信号检测阶段偏差，触发冻结 VLA 的任务内恢复。"
+      },
+      {
+        "slug": "phirl",
+        "summary": "用稀疏的人标进度约束IRL奖励，减少奖励投机和低质示范偏差。"
+      }
     ]
   },
   {
@@ -90,13 +259,34 @@
     "title": "复位、恢复与数据采集",
     "question": "持续物理运行需要多少人工、复位与失败恢复成本？",
     "papers": [
-      {"slug": "halter", "summary": "用场景图和原子技能组合长程任务的自动复位与评价。"},
-      {"slug": "kintsugi-vla", "summary": "精确恢复仿真失败状态，用可恢复性选择训练数据。"},
-      {"slug": "libero-recover", "summary": "从实际策略失败生成恢复场景与人类恢复演示，单独测韧性。"},
-      {"slug": "roborecover", "summary": "用执行偏差后的中间状态评价恢复，避免只看干净初态成功率。"},
-      {"slug": "tandem", "summary": "仅在规划缺口处按需请求遥操作示范，再离线微调 VLA。"},
-      {"slug": "causeway", "summary": "即时修改动作流表征以恢复指令切换，不产生持久学习。"},
-      {"slug": "spine", "summary": "编译机器人配置并在诊断—修复—验证闭环中恢复系统状态。"}
+      {
+        "slug": "halter",
+        "summary": "用场景图和原子技能组合长程任务的自动复位与评价。"
+      },
+      {
+        "slug": "kintsugi-vla",
+        "summary": "精确恢复仿真失败状态，用可恢复性选择训练数据。"
+      },
+      {
+        "slug": "libero-recover",
+        "summary": "从实际策略失败生成恢复场景与人类恢复演示，单独测韧性。"
+      },
+      {
+        "slug": "roborecover",
+        "summary": "用执行偏差后的中间状态评价恢复，避免只看干净初态成功率。"
+      },
+      {
+        "slug": "tandem",
+        "summary": "仅在规划缺口处按需请求遥操作示范，再离线微调 VLA。"
+      },
+      {
+        "slug": "causeway",
+        "summary": "即时修改动作流表征以恢复指令切换，不产生持久学习。"
+      },
+      {
+        "slug": "spine",
+        "summary": "编译机器人配置并在诊断—修复—验证闭环中恢复系统状态。"
+      }
     ]
   },
   {
@@ -104,13 +294,34 @@
     "title": "持续学习、基准与强对照",
     "question": "新能力增加后旧能力是否保住？评价是否可比？",
     "papers": [
-      {"slug": "continual-vla-real-world", "summary": "真机十任务顺序微调揭示遗忘，比较固定动作坐标与经验回放。"},
-      {"slug": "fan", "summary": "在任务流中固定因果可用的动作归一化，改善 VLA 迁移与保持。"},
-      {"slug": "pretrained-vla-forgetting", "summary": "在 LIBERO 顺序模仿学习中检验预训练和少量回放的抗遗忘能力。"},
-      {"slug": "compositional-continual-world-models", "summary": "用可重组课程分别测世界模型的旧知识保持与前向迁移。"},
-      {"slug": "gaussian-is-enough", "summary": "匹配预算后，复杂动作先验未稳定优于高斯，提供后训练强基线。"},
-      {"slug": "x2real", "summary": "用分层任务、过程分和 sim-real 对照评价通用机器人策略。"},
-      {"slug": "embodied-benchforge", "summary": "用需求契约与质量关卡生成、核查并局部修复具身基准。"}
+      {
+        "slug": "continual-vla-real-world",
+        "summary": "真机十任务顺序微调揭示遗忘，比较固定动作坐标与经验回放。"
+      },
+      {
+        "slug": "fan",
+        "summary": "在任务流中固定因果可用的动作归一化，改善 VLA 迁移与保持。"
+      },
+      {
+        "slug": "pretrained-vla-forgetting",
+        "summary": "在 LIBERO 顺序模仿学习中检验预训练和少量回放的抗遗忘能力。"
+      },
+      {
+        "slug": "compositional-continual-world-models",
+        "summary": "用可重组课程分别测世界模型的旧知识保持与前向迁移。"
+      },
+      {
+        "slug": "gaussian-is-enough",
+        "summary": "匹配预算后，复杂动作先验未稳定优于高斯，提供后训练强基线。"
+      },
+      {
+        "slug": "x2real",
+        "summary": "用分层任务、过程分和 sim-real 对照评价通用机器人策略。"
+      },
+      {
+        "slug": "embodied-benchforge",
+        "summary": "用需求契约与质量关卡生成、核查并局部修复具身基准。"
+      }
     ]
   }
 ]

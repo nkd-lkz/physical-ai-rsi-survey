@@ -5,10 +5,10 @@
 **主线：物理经验如何形成可验证、可保留的能力更新？** 每张论文卡片按“问题 → 方法 → 结果 → 引用价值 → 证据边界”阅读；章节则围绕一个问题比较多篇工作。
 
 <!-- stats:start -->
-**65 篇阅读卡片** · **141 项原报告条目** · **77 项待核查** · **100 条引文线索**
+**69 篇阅读卡片** · **141 项原报告条目** · **80 项待核查** · **102 条引文线索**
 <!-- stats:end -->
 
-**更新至 2026-09-30** · [最新增量](daily/2026-09-30.md) · [历史日志](daily/)
+**更新至 2026-09-30** · [当日追加](daily/2026-09-30-follow-up.md) · [早间增量](daily/2026-09-30.md) · [历史日志](daily/)
 
 ## 合作者：从这里动笔
 
@@ -37,6 +37,7 @@
 | 问题 | 放在一起读 | 要控制的差别 |
 | :--- | :--- | :--- |
 | “从经验变强”到底更新了什么？ | [FIND](papers/find-agentic-real-world-rl.md) · [Astra Robot Manipulation](papers/robot-manipulation-gpt6-astra.md) · [What Stops RSI](papers/what-stops-recursive-self-improvement-robotics.md) | 策略参数、外部工件与改进流程；各自的人工参与和验收指标 |
+| 技能辅助是否变成独立能力？ | [Skill-Space Shooting](papers/skill-space-shooting.md) · [RoboSkill](papers/roboskill-explore-execute-evolve.md) | 修补片段是否写回策略、去掉技能后的成功率、多轮修订是否退化 |
 | 新能力是否伴随遗忘？ | [ContinualVLA-Real](papers/continual-vla-real-world.md) · [Pretrained VLA Forgetting](papers/pretrained-vla-forgetting.md) · [FAN](papers/fan.md) | 真机/仿真、本体与动作坐标、回放规模、旧任务保持 |
 | 闭环能运行，是否就证明能力增长？ | [HALTER](papers/halter.md) · [LIBERO-RECOVER](papers/libero-recover.md) · [No Free Checker](papers/no-free-checker.md) | 自动复位、恢复能力、验证器可靠性与最终任务收益 |
 

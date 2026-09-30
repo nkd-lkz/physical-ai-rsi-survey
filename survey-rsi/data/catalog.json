@@ -1192,12 +1192,22 @@
     "url": "https://arxiv.org/abs/2609.28530",
     "added": "2026-09-26",
     "updated": "2026-09-26",
-    "tags": ["核心自我改进", "harness", "身体模型", "真机"],
+    "tags": [
+      "核心自我改进",
+      "harness",
+      "身体模型",
+      "真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/know-your-body.md",
     "evidence_locations": "§§3–5；Figures 2、4–5；Table 1；附录。",
     "figure_url": "https://arxiv.org/html/2609.28530v1/fig9_harness.png",
-    "authors": ["Lou, Zeyu", "Zeng, Yanhong", "Wang, Yong", "Si, Chenyang"],
+    "authors": [
+      "Lou, Zeyu",
+      "Zeng, Yanhong",
+      "Wang, Yong",
+      "Si, Chenyang"
+    ],
     "citation_date": "2026/09/22",
     "summary": "冻结VLM，以验证后发布的body model与知识规则实现跨episode真机改进。",
     "evidence": {
@@ -1216,12 +1226,20 @@
     "url": "https://arxiv.org/abs/2609.28838",
     "added": "2026-09-26",
     "updated": "2026-09-26",
-    "tags": ["在线VLA-RL", "持续学习", "负结果", "纯仿真"],
+    "tags": [
+      "在线VLA-RL",
+      "持续学习",
+      "负结果",
+      "纯仿真"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/uncertainty-gated-exploration.md",
     "evidence_locations": "§§3–8；Figures 1–3；Tables 1、4–5；Appendices C–H。",
     "figure_url": "https://arxiv.org/html/2609.28838v1/F1.svg",
-    "authors": ["Yardımcı, Mehmet Turan", "Çoğurcu, Yunus Emre"],
+    "authors": [
+      "Yardımcı, Mehmet Turan",
+      "Çoğurcu, Yunus Emre"
+    ],
     "citation_date": "2026/09/23",
     "summary": "门控探索减少多任务坍缩，但三种在线RL方案均未超过行为克隆起点。",
     "evidence": {
@@ -1240,12 +1258,27 @@
     "url": "https://arxiv.org/abs/2609.29000",
     "added": "2026-09-26",
     "updated": "2026-09-26",
-    "tags": ["部署后学习", "混合质量经验", "动作块critic", "真机"],
+    "tags": [
+      "部署后学习",
+      "混合质量经验",
+      "动作块critic",
+      "真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/pacl.md",
     "evidence_locations": "§§III–V；Figures 1、3–5；Tables I–III；附录。",
     "figure_url": "https://arxiv.org/html/2609.29000v1/framework.png",
-    "authors": ["Ren, Yangang", "Yan, Yujie", "Li, Zirui", "Guo, Jiaming", "Zeng, Di", "Tao, Ji", "Yu, Lan", "Tian, Xuesong", "Lv, Chen"],
+    "authors": [
+      "Ren, Yangang",
+      "Yan, Yujie",
+      "Li, Zirui",
+      "Guo, Jiaming",
+      "Zeng, Di",
+      "Tao, Ji",
+      "Yu, Lan",
+      "Tian, Xuesong",
+      "Lv, Chen"
+    ],
     "citation_date": "2026/09/24",
     "summary": "从自主部署的成功、部分进展和失败rollout离线更新critic与扩散策略。",
     "evidence": {
@@ -1264,12 +1297,23 @@
     "url": "https://arxiv.org/abs/2609.30092",
     "added": "2026-09-26",
     "updated": "2026-09-26",
-    "tags": ["边界案例", "测试时上下文适应", "硬件偏移", "真机"],
+    "tags": [
+      "边界案例",
+      "测试时上下文适应",
+      "硬件偏移",
+      "真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/self-adaptive-vla.md",
     "evidence_locations": "§§IV–V；Figures 2–9；Table I。",
     "figure_url": "https://arxiv.org/html/2609.30092v1/method_v7.svg",
-    "authors": ["Zhang, Hongxin", "Lin, Chunru", "Wang, Tsun-Hsuan", "Xu, Zhenjia", "Gan, Chuang"],
+    "authors": [
+      "Zhang, Hongxin",
+      "Lin, Chunru",
+      "Wang, Tsun-Hsuan",
+      "Xu, Zhenjia",
+      "Gan, Chuang"
+    ],
     "citation_date": "2026/09/24",
     "summary": "将自身失败rollout压成可累加context token，在六次尝试内补偿硬件偏移。",
     "evidence": {
@@ -1288,12 +1332,31 @@
     "url": "https://arxiv.org/abs/2609.29394",
     "added": "2026-09-26",
     "updated": "2026-09-26",
-    "tags": ["代码与harness演化", "Policy API", "经验记忆", "纯仿真"],
+    "tags": [
+      "代码与harness演化",
+      "Policy API",
+      "经验记忆",
+      "纯仿真"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/racap.md",
     "evidence_locations": "§§3–4；Figures 1、3；Tables 1–6；附录。",
     "figure_url": "https://arxiv.org/html/2609.29394v1/RACaP_Figure1_editable.png",
-    "authors": ["Li, Zexi", "Zhang, Yehang", "Huang, Haojian", "Zhou, Bohan", "Li, Wenqian", "Wang, Chenxu", "Chang, Yifan", "Wei, Yangkai", "Zhang, Tianyi", "Chen, Ying-Cong", "Zhou, Kaiwen", "Li, Yinchuan", "Cheng, James"],
+    "authors": [
+      "Li, Zexi",
+      "Zhang, Yehang",
+      "Huang, Haojian",
+      "Zhou, Bohan",
+      "Li, Wenqian",
+      "Wang, Chenxu",
+      "Chang, Yifan",
+      "Wei, Yangkai",
+      "Zhang, Tianyi",
+      "Chen, Ying-Cong",
+      "Zhou, Kaiwen",
+      "Li, Yinchuan",
+      "Cheng, James"
+    ],
     "citation_date": "2026/09/24",
     "summary": "部署前演化Policy API、ReAct harness与经验库，再冻结执行。",
     "evidence": {
@@ -1312,12 +1375,26 @@
     "url": "https://arxiv.org/abs/2609.28952",
     "added": "2026-09-26",
     "updated": "2026-09-26",
-    "tags": ["恢复评测", "执行偏差", "支撑组件", "纯仿真"],
+    "tags": [
+      "恢复评测",
+      "执行偏差",
+      "支撑组件",
+      "纯仿真"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/roborecover.md",
     "evidence_locations": "§§3–4；Figures 1–2、4–5；Tables 1–4；附录。",
     "figure_url": "https://arxiv.org/html/2609.28952v1/bench.png",
-    "authors": ["Li, Yang", "Zhao, Chen", "Wang, Zhuoran", "Wang, Jiankang", "Shao, Chao", "Lin, Yihan", "Shen, Haitao", "Zhang, Jing"],
+    "authors": [
+      "Li, Yang",
+      "Zhao, Chen",
+      "Wang, Zhuoran",
+      "Wang, Jiankang",
+      "Shao, Chao",
+      "Lin, Yihan",
+      "Shen, Haitao",
+      "Zhang, Jing"
+    ],
     "citation_date": "2026/09/24",
     "summary": "两平台2,000个中间偏差scenario显示初态成功不能代表恢复能力。",
     "evidence": {
@@ -1336,12 +1413,24 @@
     "url": "https://arxiv.org/abs/2609.29669",
     "added": "2026-09-26",
     "updated": "2026-09-26",
-    "tags": ["综述", "世界模型", "闭环评价", "benchmark"],
+    "tags": [
+      "综述",
+      "世界模型",
+      "闭环评价",
+      "benchmark"
+    ],
     "read_status": "全文综述、目录与关键统计已核查；未逐项复核全部160个基准",
     "note": "papers/world-model-benchmarks-survey.md",
     "evidence_locations": "§§2–6；Figures 10–11；Tables 2–13。",
     "figure_url": "https://arxiv.org/html/2609.29669v1/figures/hand_drawn/fig_eval_loop_hand.png",
-    "authors": ["Jena, Gaytri", "Wanaskar, Kapil", "Jain, Vinija", "Chadha, Aman", "Sharma, Vasu", "Das, Amitava"],
+    "authors": [
+      "Jena, Gaytri",
+      "Wanaskar, Kapil",
+      "Jain, Vinija",
+      "Chadha, Aman",
+      "Sharma, Vasu",
+      "Das, Amitava"
+    ],
     "citation_date": "2026/08/30",
     "summary": "160个基准中仅11个显式比较VLA与世界模型，4个把预测接到行动。",
     "evidence": {
@@ -1360,12 +1449,34 @@
     "url": "https://arxiv.org/abs/2609.29964",
     "added": "2026-09-26",
     "updated": "2026-09-26",
-    "tags": ["多模态技能演化", "视觉harness", "蒸馏", "纯仿真"],
+    "tags": [
+      "多模态技能演化",
+      "视觉harness",
+      "蒸馏",
+      "纯仿真"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/world-action-agent.md",
     "evidence_locations": "§§3–4；Figures 2、5；Tables 1–3、7；Appendix A.3。",
     "figure_url": "https://arxiv.org/html/2609.29964v1/waa_method.png",
-    "authors": ["Zhang, Yehang", "Huang, Haojian", "Chang, Yifan", "Su, Jianchong", "Zhou, Bohan", "Xu, Yingjie", "Chen, Wosong", "Zhou, Tianhao", "Wang, Chenxu", "Zhang, Tianyi", "Wei, Yangkai", "Li, Wenqian", "Deng, Shiyuan", "Li, Yinchuan", "Chen, Ying-Cong", "Li, Zexi"],
+    "authors": [
+      "Zhang, Yehang",
+      "Huang, Haojian",
+      "Chang, Yifan",
+      "Su, Jianchong",
+      "Zhou, Bohan",
+      "Xu, Yingjie",
+      "Chen, Wosong",
+      "Zhou, Tianhao",
+      "Wang, Chenxu",
+      "Zhang, Tianyi",
+      "Wei, Yangkai",
+      "Li, Wenqian",
+      "Deng, Shiyuan",
+      "Li, Yinchuan",
+      "Chen, Ying-Cong",
+      "Li, Zexi"
+    ],
     "citation_date": "2026/09/24",
     "summary": "视觉预演harness配合经证据审查的多模态技能库，技能冻结后跨任务执行。",
     "evidence": {
@@ -1384,12 +1495,23 @@
     "url": "https://arxiv.org/abs/2609.29204",
     "added": "2026-09-27",
     "updated": "2026-09-27",
-    "tags": ["核心自我改进", "harness代码", "跨任务记忆", "仿真为主"],
+    "tags": [
+      "核心自我改进",
+      "harness代码",
+      "跨任务记忆",
+      "仿真为主"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/adahvla.md",
     "evidence_locations": "§§III–V；Figures 2–5；Tables I–II。10/40适应—测试划分，三次重启，每次最多16候选。",
     "figure_url": "https://arxiv.org/html/2609.29204v1/overview.png",
-    "authors": ["Tang, Junyi", "Peng, Jie", "Ding, Zezhen", "Shen, Yuan", "Chen, Tianlong"],
+    "authors": [
+      "Tang, Junyi",
+      "Peng, Jie",
+      "Ding, Zezhen",
+      "Shen, Yuan",
+      "Chen, Tianlong"
+    ],
     "citation_date": "2026/09/24",
     "summary": "用执行证据改写并版本化代码式协调策略，VLA权重和外层改进流程保持固定。",
     "evidence": {
@@ -1408,12 +1530,21 @@
     "url": "https://arxiv.org/abs/2609.28878",
     "added": "2026-09-27",
     "updated": "2026-09-27",
-    "tags": ["持续部署适应", "闭环模型", "参考命令", "真机"],
+    "tags": [
+      "持续部署适应",
+      "闭环模型",
+      "参考命令",
+      "真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/osram.md",
     "evidence_locations": "§§III–V；Figures 2–5；Tables II–III。20次仿真/5次硬件重复；30或70个微调梯度步。",
     "figure_url": "https://arxiv.org/html/2609.28878v1/pipeline.png",
-    "authors": ["Huang, Yuhao", "Moore, Samuel A.", "Chen, Boyuan"],
+    "authors": [
+      "Huang, Yuhao",
+      "Moore, Samuel A.",
+      "Chen, Boyuan"
+    ],
     "citation_date": "2026/09/24",
     "summary": "在线微调机器人—控制器闭环模型并修改参考命令，底层控制策略冻结。",
     "evidence": {
@@ -1432,12 +1563,23 @@
     "url": "https://arxiv.org/abs/2609.30249",
     "added": "2026-09-27",
     "updated": "2026-09-27",
-    "tags": ["机器人程序", "编码代理", "验证", "仿真与真机"],
+    "tags": [
+      "机器人程序",
+      "编码代理",
+      "验证",
+      "仿真与真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/rapid.md",
     "evidence_locations": "§§III、VI–VII；Figures 2、4–5；Tables II–III。仿真8×50场景×3次；真机8×10场景。",
     "figure_url": "https://arxiv.org/html/2609.30249v1/method.png",
-    "authors": ["Liu, Yuyao", "Mao, Jiayuan", "Hsu, David", "Kaelbling, Leslie Pack", "Lozano-Pérez, Tomás"],
+    "authors": [
+      "Liu, Yuyao",
+      "Mao, Jiayuan",
+      "Hsu, David",
+      "Kaelbling, Leslie Pack",
+      "Lozano-Pérez, Tomás"
+    ],
     "citation_date": "2026/09/24",
     "summary": "从单段示范自动构造规格、原语、验证环境并迭代程序，目标场景部署时程序固定。",
     "evidence": {
@@ -1456,12 +1598,24 @@
     "url": "https://arxiv.org/abs/2609.30264",
     "added": "2026-09-27",
     "updated": "2026-09-27",
-    "tags": ["支撑组件", "世界模型", "反事实规划", "真机"],
+    "tags": [
+      "支撑组件",
+      "世界模型",
+      "反事实规划",
+      "真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/ad-wm.md",
     "evidence_locations": "§§III–V；Figures 2、4–5；Tables I–IV。三种子仿真；每模型82次Franka试验。",
     "figure_url": "https://arxiv.org/html/2609.30264v1/ad-wm.png",
-    "authors": ["Qiu, Jiabin", "Chen, Zixuan", "Cao, Hongye", "Shi, Jieqi", "Huo, Jing", "Gao, Yang"],
+    "authors": [
+      "Qiu, Jiabin",
+      "Chen, Zixuan",
+      "Cao, Hongye",
+      "Shi, Jieqi",
+      "Huo, Jing",
+      "Gao, Yang"
+    ],
     "citation_date": "2026/09/24",
     "summary": "用动作恢复目标提升潜在世界模型的反事实可辨性和MPC选择质量。",
     "evidence": {
@@ -1480,12 +1634,23 @@
     "url": "https://arxiv.org/abs/2609.28807",
     "added": "2026-09-27",
     "updated": "2026-09-27",
-    "tags": ["核心持续改进", "流式强化学习", "塑性", "纯仿真"],
+    "tags": [
+      "核心持续改进",
+      "流式强化学习",
+      "塑性",
+      "纯仿真"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/streaming-deep-rl-continual-robotics.md",
     "evidence_locations": "§§III–VI；Figures 1–3；Tables 1–3。50万步warm-start、150万步适应；5种子、每次50 episodes。",
     "figure_url": "https://arxiv.org/html/2609.28807v1/figures/overview.png",
-    "authors": ["Vitchutripop, Teeratham", "Quarles, Alyssa", "Zhang, Wenhe", "Xue, Richard", "Rakita, Daniel"],
+    "authors": [
+      "Vitchutripop, Teeratham",
+      "Quarles, Alyssa",
+      "Zhang, Wenhe",
+      "Xue, Richard",
+      "Rakita, Daniel"
+    ],
     "citation_date": "2026/09/23",
     "summary": "只用最新transition、无回放地持续更新策略；四足恢复强，操作任务峰值后退化。",
     "evidence": {
@@ -1504,12 +1669,28 @@
     "url": "https://arxiv.org/abs/2605.26820",
     "added": "2026-09-28",
     "updated": "2026-09-28",
-    "tags": ["核心持续学习", "经验回放", "动作归一化", "真机十任务"],
+    "tags": [
+      "核心持续学习",
+      "经验回放",
+      "动作归一化",
+      "真机十任务"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/continual-vla-real-world.md",
     "evidence_locations": "§§IV–VI；Figures 1–8；Tables I–III。单臂500条/任务、双臂300条/任务；十任务交替序列。",
     "figure_url": "https://arxiv.org/html/2605.26820v3/preface.png",
-    "authors": ["Zhu, Jiarun", "Hong, Yijun", "Sun, Xiaoquan", "Xu, Zetian", "He, Qijun", "Chen, Haijier", "Wang, Zhiyong", "Yuan, Mingqi", "Zeng, Wenjun", "Chen, Jiayu"],
+    "authors": [
+      "Zhu, Jiarun",
+      "Hong, Yijun",
+      "Sun, Xiaoquan",
+      "Xu, Zetian",
+      "He, Qijun",
+      "Chen, Haijier",
+      "Wang, Zhiyong",
+      "Yuan, Mingqi",
+      "Zeng, Wenjun",
+      "Chen, Jiayu"
+    ],
     "citation_date": "2026/05/26",
     "summary": "在十任务真机数据流中用回放、固定动作坐标和非对称调度保持顺序更新后的策略能力。",
     "evidence": {
@@ -1528,12 +1709,23 @@
     "url": "https://arxiv.org/abs/2603.03818",
     "added": "2026-09-28",
     "updated": "2026-09-28",
-    "tags": ["持续学习", "VLA预训练", "经验回放", "纯仿真"],
+    "tags": [
+      "持续学习",
+      "VLA预训练",
+      "经验回放",
+      "纯仿真"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/pretrained-vla-forgetting.md",
     "evidence_locations": "§§2–5；Figures 1–8；Tables 1–4；Appendices A–D。四套LIBERO、10/100/1000 transition每任务。",
     "figure_url": "https://arxiv.org/html/2603.03818v2/groot_vs_bctransformer_2x4.png",
-    "authors": ["Liu, Huihan", "Kim, Changyeon", "Liu, Bo", "Liu, Minghuan", "Zhu, Yuke"],
+    "authors": [
+      "Liu, Huihan",
+      "Kim, Changyeon",
+      "Liu, Bo",
+      "Liu, Minghuan",
+      "Zhu, Yuke"
+    ],
     "citation_date": "2026/03/04",
     "summary": "预训练VLA用少量回放显著降低遗忘；表面失效的旧技能可用少量微调恢复。",
     "evidence": {
@@ -1552,12 +1744,21 @@
     "url": "https://arxiv.org/abs/2609.28798",
     "added": "2026-09-28",
     "updated": "2026-09-28",
-    "tags": ["支撑组件", "对象中心记忆", "任务内状态", "真机"],
+    "tags": [
+      "支撑组件",
+      "对象中心记忆",
+      "任务内状态",
+      "真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/occ4m.md",
     "evidence_locations": "§§2–5；Figures 1–4；Tables 1–4。350次仿真、20个配对真机episode。",
     "figure_url": "https://arxiv.org/html/2609.28798v1/figures/realworld1.png",
-    "authors": ["Jedlicki, Jack B.", "Dieudonné, Tanguy", "Yang, Heng"],
+    "authors": [
+      "Jedlicki, Jack B.",
+      "Dieudonné, Tanguy",
+      "Yang, Heng"
+    ],
     "citation_date": "2026/09/23",
     "summary": "显式世界坐标对象轨迹把历史身份与位置变成可执行目标，策略和VLM部署时固定。",
     "evidence": {
@@ -1576,12 +1777,25 @@
     "url": "https://arxiv.org/abs/2609.28429",
     "added": "2026-09-28",
     "updated": "2026-09-28",
-    "tags": ["支撑组件", "自历史记忆", "不重置流", "双臂真机"],
+    "tags": [
+      "支撑组件",
+      "自历史记忆",
+      "不重置流",
+      "双臂真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/watch-recall-act.md",
     "evidence_locations": "§§3–5；Figures 1–3；Tables 1–3。约200条构造流、1200条技能示范；真机N=60/片段。",
     "figure_url": "https://arxiv.org/html/2609.28429v1/figures/figure-2.png",
-    "authors": ["Yi, Ding", "Sun, Peiwen", "Rong, Chenchu", "Wang, Jianan", "Dai, Xili", "Yue, Xiangyu", "Lin, Xi"],
+    "authors": [
+      "Yi, Ding",
+      "Sun, Peiwen",
+      "Rong, Chenchu",
+      "Wang, Jianan",
+      "Dai, Xili",
+      "Yue, Xiangyu",
+      "Lin, Xi"
+    ],
     "citation_date": "2026/09/23",
     "summary": "在不重置双臂流中异步组合触发、具身状态和自行动历史；部署权重固定。",
     "evidence": {
@@ -1600,12 +1814,25 @@
     "url": "https://arxiv.org/abs/2609.28927",
     "added": "2026-09-28",
     "updated": "2026-09-28",
-    "tags": ["支撑组件", "世界动作模型", "异步控制", "真机"],
+    "tags": [
+      "支撑组件",
+      "世界动作模型",
+      "异步控制",
+      "真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/streaming-wam.md",
     "evidence_locations": "§§3–4；Figures 1–6；Tables 1–4。LIBERO/RoboTwin/RoboCasa；真机2任务×30次。",
     "figure_url": "https://arxiv.org/html/2609.28927v1/streaming-wam-method-slot.png",
-    "authors": ["Huang, Xuyao", "Wang, Yixuan", "Ye, Zengyao", "Zhao, Boyuan", "Yu, Chenyang", "Wen, Haoran", "Deng, Zhijie"],
+    "authors": [
+      "Huang, Xuyao",
+      "Wang, Yixuan",
+      "Ye, Zengyao",
+      "Zhao, Boyuan",
+      "Yu, Chenyang",
+      "Wen, Haoran",
+      "Deng, Zhijie"
+    ],
     "citation_date": "2026/09/24",
     "summary": "用已提交动作条件化未来视频与动作续写，使世界动作模型推理与执行重叠。",
     "evidence": {
@@ -1624,12 +1851,22 @@
     "url": "https://arxiv.org/abs/2609.28314",
     "added": "2026-09-28",
     "updated": "2026-09-28",
-    "tags": ["支撑组件", "自动数据采集", "人机协同", "真机"],
+    "tags": [
+      "支撑组件",
+      "自动数据采集",
+      "人机协同",
+      "真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/tandem.md",
     "evidence_locations": "§§III–V；Figures 2–6；Table I；Appendix Tables II–IV。130次采集；5任务×20次评测。",
     "figure_url": "https://arxiv.org/html/2609.28314v1/figure2_v7.png",
-    "authors": ["Sahoo, Samrat", "Ji, Liang", "Silver, Tom", "Huang, Yixuan"],
+    "authors": [
+      "Sahoo, Samrat",
+      "Ji, Liang",
+      "Silver, Tom",
+      "Huang, Yixuan"
+    ],
     "citation_date": "2026/09/23",
     "summary": "TAMP只把能力缺失阶段交给人，按人力预算提高示范产出并离线微调VLA。",
     "evidence": {
@@ -1648,12 +1885,24 @@
     "url": "https://arxiv.org/abs/2609.30868",
     "added": "2026-09-29",
     "updated": "2026-09-29",
-    "tags": ["支撑组件", "残差策略", "VLA-RL", "sim-to-real", "真机"],
+    "tags": [
+      "支撑组件",
+      "残差策略",
+      "VLA-RL",
+      "sim-to-real",
+      "真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/vlarl.md",
     "evidence_locations": "§§III–IV；Figures 1–6；Tables I–III。4任务×2骨干×40次真机试验。",
     "figure_url": "https://arxiv.org/html/2609.30868v1/pipeline.png",
-    "authors": ["Saito, Namiko", "Kim, Kinam", "Kim, Heecheol", "Ikeuchi, Katsushi", "Matsushita, Yasuyuki"],
+    "authors": [
+      "Saito, Namiko",
+      "Kim, Kinam",
+      "Kim, Heecheol",
+      "Ikeuchi, Katsushi",
+      "Matsushita, Yasuyuki"
+    ],
     "citation_date": "2026/09/25",
     "summary": "冻结VLA并在数字孪生中训练残差策略，以潜变量映射实现精细操作sim-to-real纠错。",
     "evidence": {
@@ -1672,12 +1921,25 @@
     "url": "https://arxiv.org/abs/2609.30913",
     "added": "2026-09-29",
     "updated": "2026-09-29",
-    "tags": ["边界案例", "指令切换", "失败恢复", "固定权重", "真机"],
+    "tags": [
+      "边界案例",
+      "指令切换",
+      "失败恢复",
+      "固定权重",
+      "真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/causeway.md",
     "evidence_locations": "§§III–V；Figures 1–6；Tables I–II。仿真每模型5,112次；真机105次。",
     "figure_url": "https://arxiv.org/html/2609.30913v1/fig1_causeway_v2.png",
-    "authors": ["Wang, Qingzi", "Feng, Kaixi", "Shi, Guangyao", "Wu, Xiyang", "Li, Ang", "Manocha, Dinesh"],
+    "authors": [
+      "Wang, Qingzi",
+      "Feng, Kaixi",
+      "Shi, Guangyao",
+      "Wu, Xiyang",
+      "Li, Ang",
+      "Manocha, Dinesh"
+    ],
     "citation_date": "2026/09/25",
     "summary": "通过冻结VLA动作流中的状态定向梯度写入，把指令切换后的机器人带回目标任务支持域。",
     "evidence": {
@@ -1696,12 +1958,23 @@
     "url": "https://arxiv.org/abs/2609.31025",
     "added": "2026-09-29",
     "updated": "2026-09-29",
-    "tags": ["核心自我改进", "在线模型学习", "模型式强化学习", "重型机器人", "真机"],
+    "tags": [
+      "核心自我改进",
+      "在线模型学习",
+      "模型式强化学习",
+      "重型机器人",
+      "真机"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/precision-at-speed.md",
     "evidence_locations": "§§III–VI；Figures 1–9；Tables I–III；Algorithm 1。11.5吨挖掘机，每目标一次60分钟训练。",
     "figure_url": "https://arxiv.org/html/2609.31025v1/method_last_opt.png",
-    "authors": ["Canales, Claudio", "Nan, Fang", "Hutter, Marco", "Ruiz-del-Solar, Javier"],
+    "authors": [
+      "Canales, Claudio",
+      "Nan, Fang",
+      "Hutter, Marco",
+      "Ruiz-del-Solar, Javier"
+    ],
     "citation_date": "2026/09/25",
     "summary": "从零在线更新真机概率动力学模型，以MPPI在分钟级交互预算内形成高速精确轨迹控制。",
     "evidence": {
@@ -1720,12 +1993,24 @@
     "url": "https://arxiv.org/abs/2609.31048",
     "added": "2026-09-29",
     "updated": "2026-09-29",
-    "tags": ["支撑组件", "失败恢复", "自动数据采集", "可恢复性", "纯仿真"],
+    "tags": [
+      "支撑组件",
+      "失败恢复",
+      "自动数据采集",
+      "可恢复性",
+      "纯仿真"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/kintsugi-vla.md",
     "evidence_locations": "§§III–V；Figures 1–6；Tables I–V；Algorithm 1。200失败episode；45,240次分支尝试。",
     "figure_url": "https://arxiv.org/html/2609.31048v1/figures/kintsugi_method_franka.png",
-    "authors": ["Snegirev, Ivan", "Semenyakina, Elizaveta", "Maliukov, Dmitrii", "Altamirano Cabrera, Miguel", "Tsetserukou, Dzmitry"],
+    "authors": [
+      "Snegirev, Ivan",
+      "Semenyakina, Elizaveta",
+      "Maliukov, Dmitrii",
+      "Altamirano Cabrera, Miguel",
+      "Tsetserukou, Dzmitry"
+    ],
     "citation_date": "2026/09/25",
     "summary": "用精确状态恢复和专家分支估计可恢复性，从失败轨迹定向生成恢复示范。",
     "evidence": {
@@ -1744,12 +2029,22 @@
     "url": "https://arxiv.org/abs/2609.31577",
     "added": "2026-09-29",
     "updated": "2026-09-29",
-    "tags": ["边界案例", "人形机器人", "运动生成器", "离策略RL", "sim-to-real"],
+    "tags": [
+      "边界案例",
+      "人形机器人",
+      "运动生成器",
+      "离策略RL",
+      "sim-to-real"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/generate-track-improve.md",
     "evidence_locations": "§§III–V；Figures 1–7；Tables I–II。5轮仿真后训练；Unitree G1演示无重复试验分母。",
     "figure_url": "https://arxiv.org/html/2609.31577v1/transformer_architectures.png",
-    "authors": ["Olkin, Zachary", "Compton, William D.", "Ames, Aaron D."],
+    "authors": [
+      "Olkin, Zachary",
+      "Compton, William D.",
+      "Ames, Aaron D."
+    ],
     "citation_date": "2026/09/25",
     "summary": "冻结跟踪器，以critic和优势加权流匹配在仿真中迭代微调感知运动生成器。",
     "evidence": {
@@ -1768,12 +2063,22 @@
     "url": "https://arxiv.org/abs/2609.31760",
     "added": "2026-09-30",
     "updated": "2026-09-30",
-    "tags": ["严格递归候选", "改进器审计", "技能与harness", "长程信用分配", "负结果", "纯仿真", "技术报告"],
+    "tags": [
+      "严格递归候选",
+      "改进器审计",
+      "技能与harness",
+      "长程信用分配",
+      "负结果",
+      "纯仿真",
+      "技术报告"
+    ],
     "read_status": "全文方法、123轮运行记录与指定图表已核查；未复现",
     "note": "papers/what-stops-recursive-self-improvement-robotics.md",
     "evidence_locations": "§§2–8；Figures 1–6；Tables 1–4。123轮，每轮约1–3小时；113次人工harness修复。",
     "figure_url": "https://arxiv.org/html/2609.31760v1/frontier.png",
-    "authors": ["Wang, Jiaming"],
+    "authors": [
+      "Wang, Jiaming"
+    ],
     "citation_date": "2026/09/23",
     "summary": "以123轮机器人技能发现审计自动改进器，揭示关系感知、早期失败前沿与人工维护harness如何阻断能力累积。",
     "evidence": {
@@ -1792,12 +2097,31 @@
     "url": "https://arxiv.org/abs/2609.31770",
     "added": "2026-09-30",
     "updated": "2026-09-30",
-    "tags": ["边界案例", "GPT-6-Astra", "身体知识", "经验复用", "代码技能", "sim-to-real", "真机", "固定模型"],
+    "tags": [
+      "边界案例",
+      "GPT-6-Astra",
+      "身体知识",
+      "经验复用",
+      "代码技能",
+      "sim-to-real",
+      "真机",
+      "固定模型"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/robot-manipulation-gpt6-astra.md",
     "evidence_locations": "§§3–8；Figures 1–9；Tables 1–6。固定起点仿真30次、偏移起点18次、技能27次、真机12次。",
     "figure_url": "https://arxiv.org/html/2609.31770v1/teaser.png",
-    "authors": ["He, Sida", "Xie, Lingxi", "Cao, Yunning", "Chen, Pengfei", "Duan, Kaiwen", "Ge, Jiannan", "Huo, Xinyue", "Shao, Jiacheng", "Tian, Qi"],
+    "authors": [
+      "He, Sida",
+      "Xie, Lingxi",
+      "Cao, Yunning",
+      "Chen, Pengfei",
+      "Duan, Kaiwen",
+      "Ge, Jiannan",
+      "Huo, Xinyue",
+      "Shao, Jiacheng",
+      "Tian, Qi"
+    ],
     "citation_date": "2026/09/24",
     "summary": "比较机器人身体知识、同步经验和可执行局部程序如何加速冻结GPT-6-Astra的仿真与真机操作。",
     "evidence": {
@@ -1816,12 +2140,27 @@
     "url": "https://arxiv.org/abs/2609.32069",
     "added": "2026-09-30",
     "updated": "2026-09-30",
-    "tags": ["核心自我改进", "真机在线RL", "VLA残差策略", "自动课程", "自我评估", "低复位", "多任务持续学习", "非递归"],
+    "tags": [
+      "核心自我改进",
+      "真机在线RL",
+      "VLA残差策略",
+      "自动课程",
+      "自我评估",
+      "低复位",
+      "多任务持续学习",
+      "非递归"
+    ],
     "read_status": "全文方法与指定实验/表格已核查；未复现",
     "note": "papers/find-agentic-real-world-rl.md",
     "evidence_locations": "§§III–V；Figures 1–3；Tables I–III。5个独立种子；每20k步按运行×任务×检查点各20次人评；代表运行6小时456 episodes。",
     "figure_url": "https://arxiv.org/html/2609.32069v1/find-overview.png",
-    "authors": ["Fang, Yuan", "Li, Zechu", "Tong, Haolei", "Liu, Puze", "Chalvatzaki, Georgia"],
+    "authors": [
+      "Fang, Yuan",
+      "Li, Zechu",
+      "Tong, Haolei",
+      "Liu, Puze",
+      "Chalvatzaki, Georgia"
+    ],
     "citation_date": "2026/09/25",
     "summary": "在持续真机工作空间中自动选择弱项任务、用前后图像自评并在线更新残差策略，把人评成功率从55%提升至71.9%。",
     "evidence": {
@@ -1831,5 +2170,132 @@
       "platform": "八项可逆真机任务、5种子；代表运行6小时456 episodes",
       "limit": "预定义兼容任务库且基础VLA已有能力；30次人工恢复，未发现新任务或增强外层改进器"
     }
+  },
+  {
+    "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
+    "short": "Skill-Space Shooting",
+    "arxiv_id": "2609.38178",
+    "version": "v1",
+    "url": "https://arxiv.org/abs/2609.38178",
+    "added": "2026-09-30",
+    "updated": "2026-09-30",
+    "tags": [
+      "核心自我改进",
+      "真机纠错监督",
+      "技能辅助",
+      "策略持久更新",
+      "人工复位",
+      "非递归"
+    ],
+    "read_status": "全文方法、指定实验与局限已核查；未复现",
+    "note": "papers/skill-space-shooting.md",
+    "evidence_locations": "§§3–5；Figures 2–4；Tables 1–2。四项真机任务各一条训练运行；每检查点20或30次评测；每轮21–81次采集。",
+    "figure_url": "https://arxiv.org/html/2609.38178v1/method_draft.png",
+    "authors": [
+      "Rui, Zihang",
+      "Wang, Renhao",
+      "Huang, Haoxu",
+      "Gao, Yang"
+    ],
+    "citation_date": "2026/09/29",
+    "summary": "用语义技能在失败点产生真实纠错轨迹，并将成功修补片段写回策略，独立评测无辅助策略是否改善。"
+  },
+  {
+    "title": "Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents",
+    "short": "RoboSkill",
+    "arxiv_id": "2609.37810",
+    "version": "v1",
+    "url": "https://arxiv.org/abs/2609.37810",
+    "added": "2026-09-30",
+    "updated": "2026-09-30",
+    "tags": [
+      "持续改进",
+      "外部技能与代码",
+      "跨任务复用",
+      "触觉反馈",
+      "真机",
+      "非递归"
+    ],
+    "read_status": "全文方法、指定实验与局限已核查；未复现",
+    "note": "papers/roboskill-explore-execute-evolve.md",
+    "evidence_locations": "§§3–4、6；Figure 2；Tables 1–8。LIBERO-10四种子/任务；真机12任务各10次。",
+    "figure_url": "https://arxiv.org/html/2609.37810v1/RoboSkill-revised-final.png",
+    "authors": [
+      "Xie, Sicheng",
+      "Chen, Yitong",
+      "Cao, Haidong",
+      "Lu, Shunlin",
+      "Wu, Zuxuan",
+      "Jiang, Yu-Gang"
+    ],
+    "citation_date": "2026/09/29",
+    "summary": "从物理执行记录建立可跨任务与代理复用的文本、代码技能包，迭代修订但增益并不单调。"
+  },
+  {
+    "title": "PHIRL: Aligning Learned Rewards with Task Progress for Inverse Reinforcement Learning",
+    "short": "PHIRL",
+    "arxiv_id": "2609.31855",
+    "version": "v1",
+    "url": "https://arxiv.org/abs/2609.31855",
+    "added": "2026-09-30",
+    "updated": "2026-09-30",
+    "tags": [
+      "支撑组件",
+      "奖励学习",
+      "进度监督",
+      "奖励投机",
+      "真机单任务",
+      "非递归"
+    ],
+    "read_status": "全文方法、指定实验与局限已核查；未复现",
+    "note": "papers/phirl.md",
+    "evidence_locations": "§§III–V；Figs. 1–4。Robomimic两个任务、Kinova单真机任务10条评测轨迹。",
+    "figure_url": "https://arxiv.org/html/2609.31855v1/PHIRL_pipeline_low_res_anon.png",
+    "authors": [
+      "Yu, Hang",
+      "Staley, James",
+      "Tsou, Cheng Xi",
+      "Liu, Xiujin",
+      "Gao, Wenchang",
+      "Huang, Jindan",
+      "Fang, Shijie",
+      "Shangguan, Zhegong",
+      "Cangelosi, Angelo",
+      "Aronson, Reuben M.",
+      "Short, Elaine"
+    ],
+    "citation_date": "2026/09/25",
+    "summary": "将少量任务进度标注与IRL奖励对齐，降低低质演示和奖励投机带来的反馈偏差。"
+  },
+  {
+    "title": "HapticWorld: an Interactive World Simulator with Real-time Torque Feedback",
+    "short": "HapticWorld",
+    "arxiv_id": "2609.31924",
+    "version": "v1",
+    "url": "https://arxiv.org/abs/2609.31924",
+    "added": "2026-09-30",
+    "updated": "2026-09-30",
+    "tags": [
+      "支撑组件",
+      "力觉世界模拟器",
+      "人在环采集",
+      "真机验证",
+      "非持续自改进"
+    ],
+    "read_status": "全文方法、指定实验与局限已核查；未复现",
+    "note": "papers/hapticworld.md",
+    "evidence_locations": "§§III–V；Figs. 2–5；Tables I–III。三项任务各20次真机评测；50条演示/条件。",
+    "figure_url": "https://arxiv.org/html/2609.31924v1/method.png",
+    "authors": [
+      "Peng, Shaoting",
+      "Liang, Litian",
+      "Wang, Yixuan",
+      "Yang, Ming",
+      "Driggs-Campbell, Katherine",
+      "Cutkosky, Mark",
+      "Xu, James Jingxi"
+    ],
+    "citation_date": "2026/09/25",
+    "summary": "世界模拟器联动预测图像与扭矩，向操作者实时回馈力觉，改善力觉演示采集与真机策略训练。"
   }
 ]

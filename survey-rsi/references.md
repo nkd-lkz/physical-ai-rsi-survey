@@ -3,7 +3,7 @@
 
 # 引文溯源队列
 
-**100 条引文线索**，不是 100 篇已读论文。保留发现路径和原文定位；可能与原报告/候选重叠，升级前仍须按 ID、DOI、题名和作者合并。
+**102 条引文线索**，不是 102 篇已读论文。保留发现路径和原文定位；可能与原报告/候选重叠，升级前仍须按 ID、DOI、题名和作者合并。
 
 - **Eysenbach et al. (2017), Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning, arXiv:1711.06782.**
   - 发现于：[引用它的原文](https://arxiv.org/abs/2609.32069)
@@ -24,6 +24,16 @@
   - 发现于：[引用它的原文](https://arxiv.org/abs/2609.32069)
   - FIND沿引的真机连续自主RL前身；待核对约40小时训练、抓取课程预训练及人工干预定义
   - 原始入口：[来源](https://arxiv.org/abs/2107.13545)
+
+- **Du et al. (2024), To Err is Robotic: Rapid Value-Based Trial-and-Error during Deployment, arXiv:2406.15917.**
+  - 发现于：[引用它的原文](https://arxiv.org/html/2609.38178v1)
+  - 已核对原始arXiv摘要；测试时价值引导重试，可作为不持久更新的边界对照，全文实验仍待查
+  - 原始入口：[来源](https://arxiv.org/abs/2406.15917)
+
+- **Wang et al. (2026), Interactive World Simulator for Robot Policy Training and Evaluation, RSS / arXiv:2603.08546.**
+  - 发现于：[引用它的原文](https://arxiv.org/html/2609.31924v1)
+  - 已核对原始arXiv摘要；HapticWorld沿用其视觉世界模拟器骨干，待回读真机预算和虚实评测协议
+  - 原始入口：[来源](https://arxiv.org/abs/2603.08546)
 
 - **Ankile et al. (2025), ResFiT: Residual Off-Policy RL for Finetuning Behavior Cloning Policies, arXiv:2509.19301.**
   - 发现于：[引用它的原文](https://arxiv.org/abs/2609.30868)

@@ -3,17 +3,29 @@
 
 # 候选与待核查
 
-**77 项**。下列条目未完成全文方法/结果核查，不计入正式卡片。优先级表示下一步阅读顺序，不能作为可信度评分。
+**80 项**。下列条目未完成全文方法/结果核查，不计入正式卡片。优先级表示下一步阅读顺序，不能作为可信度评分。
 
-## 优先 · 35 项
+## 优先 · 38 项
 
-- **[PHIRL: Aligning Learned Rewards with Task Progress for Inverse Reinforcement Learning](https://arxiv.org/abs/2609.31855)**
-  - `2609.31855` · 发现 2026-09-30 · arXiv摘要、元数据及全文方法/实验范围已核查；尚未逐表复核全部数值，不计正式卡片
-  - 下一步：核对仿真与真机任务的独立试验分母、20%进度标注预算、奖励投机对照及VLM进度标注误差；归入反馈/奖励支撑而非持久RSI。
+- **[SkillWeaver: Agentic Exploration over Neural Interaction Skills for Scalable Robot Data Generation](https://arxiv.org/abs/2609.36171)**
+  - `2609.36171` · 发现 2026-09-30 · arXiv官方cs.RO新稿列表题名与摘要已核查；全文/逐表尚未完成，不计正式卡片
+  - 下一步：核对39.1K轨迹/14.1K场景的仿真数据过滤、原始CoRL版本与真机迁移评测分母；属于数据生成支撑。
 
-- **[HapticWorld: an Interactive World Simulator with Real-time Torque Feedback](https://arxiv.org/abs/2609.31924)**
-  - `2609.31924` · 发现 2026-09-30 · arXiv摘要、元数据及全文主要实验已核查；尚未逐表审核全部任务分母，不计正式卡片
-  - 下一步：核对三项接触任务的示范数量、1.6倍吞吐口径、54/60真机结果和世界模拟器内外评价一致性；作为带力觉数据生成/评测支撑。
+- **[RoboHarn-Evo: Evolving Hierarchical Physical Knowledge for Self-Improving Robotic Manipulation](https://arxiv.org/abs/2609.37583)**
+  - `2609.37583` · 发现 2026-09-30 · arXiv官方cs.RO新稿列表题名与摘要已核查；全文/逐表尚未完成，不计正式卡片
+  - 下一步：核对正文双循环、历史知识错误审计的分母、RMBench/RoboDojo独立测试与具体人工参与；基础模型固定，应区分知识库更新与严格递归。
+
+- **[ReF-HIL: Shaping the Critic around Human Action Neighborhoods for Efficient Human-in-the-Loop Reinforcement Learning](https://arxiv.org/abs/2609.37131)**
+  - `2609.37131` · 发现 2026-09-30 · arXiv官方cs.RO新稿列表题名与摘要已核查；全文/逐表尚未完成，不计正式卡片
+  - 下一步：核对18–63分钟训练与91.7–100%最终成功率的任务分母、人工介入次数和critic消融；区分人在环训练与自主自改进。
+
+- **[EVO-WAM: Evolving World Action Models through Video-Action Verification](https://arxiv.org/abs/2609.38057)**
+  - `2609.38057` · 发现 2026-09-30 · arXiv官方cs.RO新稿列表题名与摘要已核查；全文/逐表尚未完成，不计正式卡片
+  - 下一步：核对只在生成轨迹上更新的反馈闭环、视频—动作一致性验证可靠度及三项真机任务的评测次数；不要误写成机器人在线采集。
+
+- **[Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation](https://arxiv.org/abs/2609.37398)**
+  - `2609.37398` · 发现 2026-09-30 · arXiv官方cs.RO新稿列表题名与摘要已核查；全文/逐表尚未完成，不计正式卡片
+  - 下一步：核对DEWO两轮部署学习的真实试验分母、四任务三乘三网格统计及失败/成功视觉监督消融。
 
 - **[Learning to Leverage Compliance: A Policy-Admittance Learning Framework for Robotic Insertion](https://arxiv.org/abs/2609.31439)**
   - `2609.31439` · 发现 2026-09-29 · arXiv摘要、元数据与四项真机装配范围已核查；尚未逐表审核，不计正式卡片

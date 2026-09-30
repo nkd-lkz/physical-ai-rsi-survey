@@ -9,9 +9,9 @@
 | 章节 | 核心问题 | 可以先用的材料 | 还需要补的证据 |
 | :--- | :--- | :--- | :--- |
 | 范围与定义 | 哪些是任务内适应、持久自我改进、改进器递归增强？ | [证据对照](evidence-map.md)；Zeva-Ego / MessyMem / RegenHarness 的差异 | 明确跨任务、会话、部署的重置边界；不要靠标题纳入 |
-| 策略与世界模型更新 | 执行经验怎样进入参数，模型想象何时可信？ | FIND、Streaming Deep RL、ContinualVLA-Real、RAPolicy、ForceRFT、VLaRL、Precision at Speed、PACL、OSRAM、AD-WM、InternW0；[世界模型主题](topics.md#world) | 用matched对照连接事实预测、候选排序、行动收益、真实机器分钟与旧任务保持 |
-| 记忆、技能与可执行代码 | 不改基础权重，系统还能更新什么？ | Astra Robot Manipulation、What Stops RSI、OCC4M、ARMS、AdaHVLA、RAPID、KnowBody、RACaP、WAA、Self-Adaptive VLA、MessyMem、LEMCA | 区分单episode对象轨迹、外部经验、人工整理技能、跨任务revision graph和部署时上下文；测库膨胀与退化 |
-| 反馈、目标与自动课程 | 什么决定更新方向和接纳标准？ | FIND、What Stops RSI、No Free Checker、SRPO、AgenticRL、HiRE、Banana Kick | 固定验证器 vs 共同演化验证器；任务选择偏差、奖励投机与独立任务指标 |
+| 策略与世界模型更新 | 执行经验怎样进入参数，模型想象何时可信？ | Skill-Space Shooting、FIND、Streaming Deep RL、ContinualVLA-Real、RAPolicy、ForceRFT、VLaRL、Precision at Speed、PACL、OSRAM、AD-WM、InternW0；[世界模型主题](topics.md#world) | 用matched对照连接事实预测、候选排序、行动收益、真实机器分钟与旧任务保持 |
+| 记忆、技能与可执行代码 | 不改基础权重，系统还能更新什么？ | RoboSkill、Astra Robot Manipulation、What Stops RSI、OCC4M、ARMS、AdaHVLA、RAPID、KnowBody、RACaP、WAA、Self-Adaptive VLA、MessyMem、LEMCA | 区分单episode对象轨迹、外部经验、人工整理技能、跨任务revision graph和部署时上下文；测库膨胀与退化 |
+| 反馈、目标与自动课程 | 什么决定更新方向和接纳标准？ | PHIRL、FIND、What Stops RSI、No Free Checker、SRPO、AgenticRL、HiRE、Banana Kick | 固定验证器 vs 共同演化验证器；任务选择偏差、奖励投机与独立任务指标 |
 | 连续物理运行的条件 | 学习闭环在硬件上为什么难持续？ | FIND、What Stops RSI、HALTER、LIBERO-RECOVER、Kintsugi-VLA、Causeway、RoboRecover、SPINE、ARMS、TANDEM、RegenHarness | 人工接管/复位/harness修复时长、状态分支/教师查询、失败损耗、推理截止时间与累计成本 |
 | 持续学习与跨部署积累 | 新能力增加后旧能力是否保持？ | ContinualVLA-Real、Pretrained VLA Forgetting、FAN、MEMOBench、持续世界模型基准 | 多轮前向/后向迁移、动作坐标、任务异质性、场景漂移、旧数据依赖 |
 | 从自我改进到递归 | 学习/研究流程自身能否越来越有效？ | What Stops RSI提供负结果审计；原报告的 STOP、DGM、HELIX、Dream-RSI 等仅作待复核入口；[改进器主题](topics.md#improvers) | 机器人上的外层改进器更新、冻结外层对照、任务成功验收与预算匹配 |
@@ -73,6 +73,9 @@
 - **外部工件复用和参数学习应画成两条路径。** Astra Robot Manipulation在冻结模型条件下靠身体知识、同步经验和局部程序缩短时间；FIND则把真机经验写入可留存的残差策略。两者都“从经验中变强”，更新载体、留存范围和风险完全不同。
 - **修改次数不是递归进步指标。** What Stops RSI在123轮中接纳大量技能与模型变化，目标任务仍为0成功且需要113次人工harness修复；综述应报告固定目标验收、失败前沿、人工维护量和冻结harness对照。
 - **低复位闭环仍要报告场景恢复。** FIND的代表性6小时运行有426/456个episode无需干预，但剩余30次人工恢复决定了“自主”边界；课程收益须和任务库覆盖、不可逆状态频率一起报告。
+- **技能辅助不一定等于策略学会了。** RoboSkill把经验留在文本/代码包；Skill-Space Shooting再把局部修补写回任务策略，并撤去辅助组件独立验收。两篇可作“外部工件持续更新”与“策略内化”的机制对照。
+- **“多轮演化”也可能倒退。** RoboSkill的第二次技能修订在部分代理和指标上变差；综述应报告逐轮轨迹、固定预算、末轮与最佳轮，而不是只选峰值。
+- **世界模型基础设施的成本要完整核算。** HapticWorld的虚拟力觉示范与真机表现相关，但模拟器先用每任务500条真机play数据训练；与PHIRL的人标进度一样，反馈质量收益都应连同人工和算力成本报告。
 
 ## 建议准备的图与表
 

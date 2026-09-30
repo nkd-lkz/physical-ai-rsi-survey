@@ -20,7 +20,8 @@
       "precision-at-speed",
       "continual-vla-real-world",
       "pretrained-vla-forgetting",
-      "streaming-deep-rl-continual-robotics"
+      "streaming-deep-rl-continual-robotics",
+      "skill-space-shooting"
     ]
   },
   {
@@ -37,7 +38,8 @@
       "ad-wm",
       "precision-at-speed",
       "vlarl",
-      "streaming-wam"
+      "streaming-wam",
+      "hapticworld"
     ]
   },
   {
@@ -59,7 +61,9 @@
       "adahvla",
       "rapid",
       "robot-manipulation-gpt6-astra",
-      "what-stops-recursive-self-improvement-robotics"
+      "what-stops-recursive-self-improvement-robotics",
+      "skill-space-shooting",
+      "roboskill-explore-execute-evolve"
     ]
   },
   {
@@ -79,7 +83,8 @@
       "causeway",
       "robot-manipulation-gpt6-astra",
       "occ4m",
-      "watch-recall-act"
+      "watch-recall-act",
+      "roboskill-explore-execute-evolve"
     ]
   },
   {
@@ -101,7 +106,9 @@
       "precision-at-speed",
       "continual-vla-real-world",
       "pretrained-vla-forgetting",
-      "streaming-deep-rl-continual-robotics"
+      "streaming-deep-rl-continual-robotics",
+      "skill-space-shooting",
+      "roboskill-explore-execute-evolve"
     ]
   },
   {
@@ -124,7 +131,8 @@
       "adahvla",
       "rapid",
       "find-agentic-real-world-rl",
-      "what-stops-recursive-self-improvement-robotics"
+      "what-stops-recursive-self-improvement-robotics",
+      "phirl"
     ]
   },
   {
@@ -143,7 +151,8 @@
       "kintsugi-vla",
       "find-agentic-real-world-rl",
       "tandem",
-      "watch-recall-act"
+      "watch-recall-act",
+      "hapticworld"
     ]
   },
   {
@@ -166,7 +175,8 @@
       "regenharness",
       "learning-transferring-robot-software",
       "adahvla",
-      "what-stops-recursive-self-improvement-robotics"
+      "what-stops-recursive-self-improvement-robotics",
+      "roboskill-explore-execute-evolve"
     ]
   },
   {

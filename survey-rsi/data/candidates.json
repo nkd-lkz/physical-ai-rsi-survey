@@ -685,9 +685,24 @@
     "priority": "次优先",
     "next_check": "全文核对4.5×稳态replanning speedup、LIBERO/RoboTwin/Unitree G1成功口径与rolling window消融；按固定世界模型支撑组件处理。",
     "discovered": "2026-09-26",
-    "authors": ["Zhou, Yinghua", "Ye, Junjie", "Zhao, Yiqi", "Dong, Hao", "Wang, Celina Shiyu", "Ge, Ruohai", "Yang, Tingyi", "Van Hoorick, Basile", "Sukhatme, Gaurav", "Guizilini, Vitor", "Wang, Yue"],
+    "authors": [
+      "Zhou, Yinghua",
+      "Ye, Junjie",
+      "Zhao, Yiqi",
+      "Dong, Hao",
+      "Wang, Celina Shiyu",
+      "Ge, Ruohai",
+      "Yang, Tingyi",
+      "Van Hoorick, Basile",
+      "Sukhatme, Gaurav",
+      "Guizilini, Vitor",
+      "Wang, Yue"
+    ],
     "citation_date": "2026/09/24",
-    "topics": ["世界动作模型", "推理效率"],
+    "topics": [
+      "世界动作模型",
+      "推理效率"
+    ],
     "version": "v1"
   },
   {
@@ -698,9 +713,18 @@
     "priority": "次优先",
     "next_check": "核对混合数据训练、SimlerEnv +10.3点、真实机器人分母与normalization对照；与FAN共同讨论动作坐标接口。",
     "discovered": "2026-09-26",
-    "authors": ["Duan, Yufei", "Yin, Hang", "Longhini, Alberta", "Tang, Chao", "Kragic, Danica"],
+    "authors": [
+      "Duan, Yufei",
+      "Yin, Hang",
+      "Longhini, Alberta",
+      "Tang, Chao",
+      "Kragic, Danica"
+    ],
     "citation_date": "2026/09/24",
-    "topics": ["动作表示", "多数据集训练"],
+    "topics": [
+      "动作表示",
+      "多数据集训练"
+    ],
     "version": "v1"
   },
   {
@@ -711,9 +735,23 @@
     "priority": "次优先",
     "next_check": "取得PDF后核对latent path、inverse-dynamics supervision和机器人操纵实验；重点判断是否有闭环行动收益而非表示指标。",
     "discovered": "2026-09-26",
-    "authors": ["Yuan, Yijun", "Zheng, Weicheng", "Wang, Weibang", "Qin, Minghui", "Sun, Chang", "Huang, Junhao", "Li, Kenan", "Liu, Anmin", "Yao, Yicheng", "Zhao, Hang"],
+    "authors": [
+      "Yuan, Yijun",
+      "Zheng, Weicheng",
+      "Wang, Weibang",
+      "Qin, Minghui",
+      "Sun, Chang",
+      "Huang, Junhao",
+      "Li, Kenan",
+      "Liu, Anmin",
+      "Yao, Yicheng",
+      "Zhao, Hang"
+    ],
     "citation_date": "2026/09/24",
-    "topics": ["世界模型", "表示空间规划"],
+    "topics": [
+      "世界模型",
+      "表示空间规划"
+    ],
     "version": "v1"
   },
   {
@@ -724,9 +762,15 @@
     "priority": "暂不纳入主线",
     "next_check": "核对负载/活动度事件触发、执行统计和真机 reaching 分母；预计是任务内重规划边界而非持久改进。",
     "discovered": "2026-09-26",
-    "authors": ["Saito, Namiko", "Kera, Hiroshi"],
+    "authors": [
+      "Saito, Namiko",
+      "Kera, Hiroshi"
+    ],
     "citation_date": "2026/09/24",
-    "topics": ["身体状态", "任务内重规划"],
+    "topics": [
+      "身体状态",
+      "任务内重规划"
+    ],
     "version": "v1"
   },
   {
@@ -737,9 +781,24 @@
     "priority": "优先",
     "next_check": "全文核对150+任务和12项真机的分母、memory bank跨episode清空/保留边界，并与ARMS、OCC4M和MemBodied做matched分类。",
     "discovered": "2026-09-28",
-    "authors": ["Shi, Hao", "Xie, Bin", "Liu, Yingfei", "Sun, Lin", "Liu, Fengrong", "Wang, Tiancai", "Zhou, Erjin", "Fan, Haoqiang", "Zhang, Xiangyu", "Huang, Gao"],
+    "authors": [
+      "Shi, Hao",
+      "Xie, Bin",
+      "Liu, Yingfei",
+      "Sun, Lin",
+      "Liu, Fengrong",
+      "Wang, Tiancai",
+      "Zhou, Erjin",
+      "Fan, Haoqiang",
+      "Zhang, Xiangyu",
+      "Huang, Gao"
+    ],
     "citation_date": "2025/08/26",
-    "topics": ["记忆VLA", "长时操作", "真机"],
+    "topics": [
+      "记忆VLA",
+      "长时操作",
+      "真机"
+    ],
     "version": "v2"
   },
   {
@@ -750,9 +809,26 @@
     "priority": "优先",
     "next_check": "全文核对RLBench 90.5%和真机44.4%的任务/试验分母、training-free图更新规则，以及状态是否仅在单次任务内保留。",
     "discovered": "2026-09-28",
-    "authors": ["Huang, Yuzhi", "Wu, Jie", "Bu, Weijue", "Xiong, Ziyi", "Jiang, Gaoyang", "Li, Ye", "Ji, Kangye", "Xie, Shuzhao", "Huang, Yue", "Wu, Chenglei", "Jiang, Jingyan", "Wang, Zhi"],
+    "authors": [
+      "Huang, Yuzhi",
+      "Wu, Jie",
+      "Bu, Weijue",
+      "Xiong, Ziyi",
+      "Jiang, Gaoyang",
+      "Li, Ye",
+      "Ji, Kangye",
+      "Xie, Shuzhao",
+      "Huang, Yue",
+      "Wu, Chenglei",
+      "Jiang, Jingyan",
+      "Wang, Zhi"
+    ],
     "citation_date": "2026/03/13",
-    "topics": ["时空记忆", "因果图", "长时操作"],
+    "topics": [
+      "时空记忆",
+      "因果图",
+      "长时操作"
+    ],
     "version": "v2"
   },
   {
@@ -763,9 +839,18 @@
     "priority": "优先",
     "next_check": "全文核对三项分钟级真机任务、keyframe选择和文本子指令的分母；判断experience retrieval是单episode历史还是跨任务技能积累。",
     "discovered": "2026-09-28",
-    "authors": ["Sridhar, Ajay", "Pan, Jennifer", "Sharma, Satvik", "Finn, Chelsea"],
+    "authors": [
+      "Sridhar, Ajay",
+      "Pan, Jennifer",
+      "Sharma, Satvik",
+      "Finn, Chelsea"
+    ],
     "citation_date": "2025/10/23",
-    "topics": ["经验检索", "长时记忆", "真机"],
+    "topics": [
+      "经验检索",
+      "长时记忆",
+      "真机"
+    ],
     "version": "v1"
   },
   {
@@ -776,9 +861,20 @@
     "priority": "次优先",
     "next_check": "全文核对Spot三环境15任务的试验分母、4倍提升口径和在线语言地图重置边界；预计为任务内主动信息收集而非持久学习。",
     "discovered": "2026-09-29",
-    "authors": ["Ravichandran, Zachary", "Diller, Jonathan", "Cladera, Fernando", "Murali, Varun", "Pappas, George J.", "Kumar, Vijay"],
+    "authors": [
+      "Ravichandran, Zachary",
+      "Diller, Jonathan",
+      "Cladera, Fernando",
+      "Murali, Varun",
+      "Pappas, George J.",
+      "Kumar, Vijay"
+    ],
     "citation_date": "2026/09/24",
-    "topics": ["主动信息收集", "语言地图", "真机"],
+    "topics": [
+      "主动信息收集",
+      "语言地图",
+      "真机"
+    ],
     "version": "v1"
   },
   {
@@ -789,9 +885,24 @@
     "priority": "次优先",
     "next_check": "核对四案例六组对照、liveness反例和行为保持证明；提炼为可执行harness发布前审计，而非自我改进实证。",
     "discovered": "2026-09-29",
-    "authors": ["Conner, David C.", "Luzier, Joshua", "Doyle, William J.", "Faith, Emma R.", "Kooiker, Aubrie B.", "Farney, Andrew J.", "Fox, Sebastian", "Grimes, Evangelina", "Conner, Ian G.", "Bloom, Kyle"],
+    "authors": [
+      "Conner, David C.",
+      "Luzier, Joshua",
+      "Doyle, William J.",
+      "Faith, Emma R.",
+      "Kooiker, Aubrie B.",
+      "Farney, Andrew J.",
+      "Fox, Sebastian",
+      "Grimes, Evangelina",
+      "Conner, Ian G.",
+      "Bloom, Kyle"
+    ],
     "citation_date": "2026/09/24",
-    "topics": ["形式监督器", "发布审计", "安全"],
+    "topics": [
+      "形式监督器",
+      "发布审计",
+      "安全"
+    ],
     "version": "v1"
   },
   {
@@ -802,9 +913,18 @@
     "priority": "次优先",
     "next_check": "全文核对LLM搜索轮次、机器人/仿真任务、vanilla ProPS基线及编码变换的泄露假设；判断是否仅优化固定策略参数。",
     "discovered": "2026-09-29",
-    "authors": ["Irshayyid, Ali", "Lin, Feng", "Li, Chong", "Chen, Jun"],
+    "authors": [
+      "Irshayyid, Ali",
+      "Lin, Feng",
+      "Li, Chong",
+      "Chen, Jun"
+    ],
     "citation_date": "2026/09/24",
-    "topics": ["LLM策略搜索", "隐私", "自动优化"],
+    "topics": [
+      "LLM策略搜索",
+      "隐私",
+      "自动优化"
+    ],
     "version": "v1"
   },
   {
@@ -815,9 +935,17 @@
     "priority": "次优先",
     "next_check": "核对LaneSegNet/VAD数据划分、置信区间与输入输出基线；用于说明验证器须证明增量信息，自动驾驶边界单列。",
     "discovered": "2026-09-29",
-    "authors": ["Advani, Nikhil Kamalkumar", "Hogale, Vishwajeet Shivaji", "Kumar, Saurav"],
+    "authors": [
+      "Advani, Nikhil Kamalkumar",
+      "Hogale, Vishwajeet Shivaji",
+      "Kumar, Saurav"
+    ],
     "citation_date": "2026/09/24",
-    "topics": ["运行时监测", "验证器审计", "自动驾驶"],
+    "topics": [
+      "运行时监测",
+      "验证器审计",
+      "自动驾驶"
+    ],
     "version": "v1"
   },
   {
@@ -828,9 +956,21 @@
     "priority": "次优先",
     "next_check": "核对LIBERO与真机任务的分母、8.7倍延迟口径及waypoint擦除/反捷径消融；预计为规划—执行接口支撑。",
     "discovered": "2026-09-29",
-    "authors": ["Xie, Chuanliang", "Ma, Boyu", "Li, Gen", "Liu, Yizhou", "Chen, Houwang", "Zhou, Xinyu", "Yang, Jianfei"],
+    "authors": [
+      "Xie, Chuanliang",
+      "Ma, Boyu",
+      "Li, Gen",
+      "Liu, Yizhou",
+      "Chen, Houwang",
+      "Zhou, Xinyu",
+      "Yang, Jianfei"
+    ],
     "citation_date": "2026/09/25",
-    "topics": ["分层VLA", "规划执行接口", "实时控制"],
+    "topics": [
+      "分层VLA",
+      "规划执行接口",
+      "实时控制"
+    ],
     "version": "v1"
   },
   {
@@ -841,9 +981,17 @@
     "priority": "暂不纳入主线",
     "next_check": "等待后续实证版本；当前不得把“拟研究/计划利用世界模型”写成已验证的VLA改进。",
     "discovered": "2026-09-29",
-    "authors": ["Kashani, Parsa Mastouri", "Habekost, Jan-Gerrit", "Wermter, Stefan"],
+    "authors": [
+      "Kashani, Parsa Mastouri",
+      "Habekost, Jan-Gerrit",
+      "Wermter, Stefan"
+    ],
     "citation_date": "2026/09/25",
-    "topics": ["概念论文", "VLA世界模型", "规划"],
+    "topics": [
+      "概念论文",
+      "VLA世界模型",
+      "规划"
+    ],
     "version": "v1"
   },
   {
@@ -854,35 +1002,20 @@
     "priority": "优先",
     "next_check": "全文核对四种连接器的试验分母、执行时交互数据如何更新策略、94%汇总口径和力/力矩峰值基线；判断训练是否跨部署留存。",
     "discovered": "2026-09-29",
-    "authors": ["Wang, Chongren", "Li, Minghe", "Dai, Honghua", "Lin, Zhicheng", "Wei, Shiyang", "Yue, Xiaokui"],
+    "authors": [
+      "Wang, Chongren",
+      "Li, Minghe",
+      "Dai, Honghua",
+      "Lin, Zhicheng",
+      "Wei, Shiyang",
+      "Yue, Xiaokui"
+    ],
     "citation_date": "2026/09/25",
-    "topics": ["接触丰富操作", "真机策略学习", "柔顺控制"],
-    "version": "v1"
-  },
-  {
-    "title": "PHIRL: Aligning Learned Rewards with Task Progress for Inverse Reinforcement Learning",
-    "arxiv_id": "2609.31855",
-    "url": "https://arxiv.org/abs/2609.31855",
-    "status": "arXiv摘要、元数据及全文方法/实验范围已核查；尚未逐表复核全部数值，不计正式卡片",
-    "priority": "优先",
-    "next_check": "核对仿真与真机任务的独立试验分母、20%进度标注预算、奖励投机对照及VLM进度标注误差；归入反馈/奖励支撑而非持久RSI。",
-    "discovered": "2026-09-30",
-    "authors": ["Yu, Hang", "Staley, James", "Tsou, Cheng Xi", "Liu, Xiujin", "Gao, Wenchang", "Huang, Jindan", "Fang, Shijie", "Shangguan, Zhegong", "Cangelosi, Angelo", "Aronson, Reuben", "Short, Elaine"],
-    "citation_date": "2026/09/25",
-    "topics": ["奖励学习", "进度反馈", "逆强化学习", "奖励投机"],
-    "version": "v1"
-  },
-  {
-    "title": "HapticWorld: an Interactive World Simulator with Real-time Torque Feedback",
-    "arxiv_id": "2609.31924",
-    "url": "https://arxiv.org/abs/2609.31924",
-    "status": "arXiv摘要、元数据及全文主要实验已核查；尚未逐表审核全部任务分母，不计正式卡片",
-    "priority": "优先",
-    "next_check": "核对三项接触任务的示范数量、1.6倍吞吐口径、54/60真机结果和世界模拟器内外评价一致性；作为带力觉数据生成/评测支撑。",
-    "discovered": "2026-09-30",
-    "authors": ["Peng, Shaoting", "Liang, Litian", "Wang, Yixuan", "Yang, Ming", "Driggs-Campbell, Katherine", "Cutkosky, Mark", "Xu, James Jingxi"],
-    "citation_date": "2026/09/25",
-    "topics": ["交互式世界模型", "力矩反馈", "数据采集", "真机评测"],
+    "topics": [
+      "接触丰富操作",
+      "真机策略学习",
+      "柔顺控制"
+    ],
     "version": "v1"
   },
   {
@@ -893,9 +1026,19 @@
     "priority": "次优先",
     "next_check": "核对手工阈值、四轮重复和全部安全失败类型；明确固定CARLA地图中的运行时shield不是学习或递归改进。",
     "discovered": "2026-09-30",
-    "authors": ["Gao, Kejia", "Zhou, Liguo", "Yu, Lei", "Knoll, Alois"],
+    "authors": [
+      "Gao, Kejia",
+      "Zhou, Liguo",
+      "Yu, Lei",
+      "Knoll, Alois"
+    ],
     "citation_date": "2026/09/24",
-    "topics": ["运行时监督", "安全shield", "自动驾驶", "边界案例"],
+    "topics": [
+      "运行时监督",
+      "安全shield",
+      "自动驾驶",
+      "边界案例"
+    ],
     "version": "v1"
   },
   {
@@ -906,9 +1049,18 @@
     "priority": "次优先",
     "next_check": "核对外部VLM生成二维轨迹的成本、MoE技能模块训练数据和真机泛化分母；预计为冻结高层指导/策略接口，不是部署后学习。",
     "discovered": "2026-09-30",
-    "authors": ["Zhong, Ninghan", "Peng, Jing-Chen", "Vishwanath, Sriram"],
+    "authors": [
+      "Zhong, Ninghan",
+      "Peng, Jing-Chen",
+      "Vishwanath, Sriram"
+    ],
     "citation_date": "2026/09/25",
-    "topics": ["VLM指导", "视觉轨迹", "VLA", "真机泛化"],
+    "topics": [
+      "VLM指导",
+      "视觉轨迹",
+      "VLA",
+      "真机泛化"
+    ],
     "version": "v1"
   },
   {
@@ -919,9 +1071,70 @@
     "priority": "次优先",
     "next_check": "核对六种容器的逐对象试验分母、三阶段课程与enclosure消融；按仿真训练后零样本迁移边界归类，不写成部署期自我改进。",
     "discovered": "2026-09-30",
-    "authors": ["Xu, Mo", "Deng, Yunfu", "Wang, Jianuo", "Hanna, Josiah", "Mutlu, Bilge"],
+    "authors": [
+      "Xu, Mo",
+      "Deng, Yunfu",
+      "Wang, Jianuo",
+      "Hanna, Josiah",
+      "Mutlu, Bilge"
+    ],
     "citation_date": "2026/09/25",
-    "topics": ["双手灵巧操作", "课程学习", "sim-to-real", "边界案例"],
+    "topics": [
+      "双手灵巧操作",
+      "课程学习",
+      "sim-to-real",
+      "边界案例"
+    ],
+    "version": "v1"
+  },
+  {
+    "title": "RoboHarn-Evo: Evolving Hierarchical Physical Knowledge for Self-Improving Robotic Manipulation",
+    "arxiv_id": "2609.37583",
+    "url": "https://arxiv.org/abs/2609.37583",
+    "status": "arXiv官方cs.RO新稿列表题名与摘要已核查；全文/逐表尚未完成，不计正式卡片",
+    "priority": "优先",
+    "next_check": "核对正文双循环、历史知识错误审计的分母、RMBench/RoboDojo独立测试与具体人工参与；基础模型固定，应区分知识库更新与严格递归。",
+    "discovered": "2026-09-30",
+    "version": "v1"
+  },
+  {
+    "title": "Direct Experience World-Model Optimization: Learning the World Beyond Action Imitation",
+    "arxiv_id": "2609.37398",
+    "url": "https://arxiv.org/abs/2609.37398",
+    "status": "arXiv官方cs.RO新稿列表题名与摘要已核查；全文/逐表尚未完成，不计正式卡片",
+    "priority": "优先",
+    "next_check": "核对DEWO两轮部署学习的真实试验分母、四任务三乘三网格统计及失败/成功视觉监督消融。",
+    "discovered": "2026-09-30",
+    "version": "v1"
+  },
+  {
+    "title": "EVO-WAM: Evolving World Action Models through Video-Action Verification",
+    "arxiv_id": "2609.38057",
+    "url": "https://arxiv.org/abs/2609.38057",
+    "status": "arXiv官方cs.RO新稿列表题名与摘要已核查；全文/逐表尚未完成，不计正式卡片",
+    "priority": "优先",
+    "next_check": "核对只在生成轨迹上更新的反馈闭环、视频—动作一致性验证可靠度及三项真机任务的评测次数；不要误写成机器人在线采集。",
+    "discovered": "2026-09-30",
+    "version": "v1"
+  },
+  {
+    "title": "SkillWeaver: Agentic Exploration over Neural Interaction Skills for Scalable Robot Data Generation",
+    "arxiv_id": "2609.36171",
+    "url": "https://arxiv.org/abs/2609.36171",
+    "status": "arXiv官方cs.RO新稿列表题名与摘要已核查；全文/逐表尚未完成，不计正式卡片",
+    "priority": "优先",
+    "next_check": "核对39.1K轨迹/14.1K场景的仿真数据过滤、原始CoRL版本与真机迁移评测分母；属于数据生成支撑。",
+    "discovered": "2026-09-30",
+    "version": "v1"
+  },
+  {
+    "title": "ReF-HIL: Shaping the Critic around Human Action Neighborhoods for Efficient Human-in-the-Loop Reinforcement Learning",
+    "arxiv_id": "2609.37131",
+    "url": "https://arxiv.org/abs/2609.37131",
+    "status": "arXiv官方cs.RO新稿列表题名与摘要已核查；全文/逐表尚未完成，不计正式卡片",
+    "priority": "优先",
+    "next_check": "核对18–63分钟训练与91.7–100%最终成功率的任务分母、人工介入次数和critic消融；区分人在环训练与自主自改进。",
+    "discovered": "2026-09-30",
     "version": "v1"
   }
 ]

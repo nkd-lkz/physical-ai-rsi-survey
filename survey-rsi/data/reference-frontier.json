@@ -599,155 +599,217 @@
   {
     "cited_by": "https://arxiv.org/html/2609.28530v1",
     "reference": "Li et al. (2026), PhysMem: Scaling Test-Time Memory for Embodied Physical Reasoning, arXiv:2602.20323v6.",
-    "urls": ["https://arxiv.org/abs/2602.20323"],
+    "urls": [
+      "https://arxiv.org/abs/2602.20323"
+    ],
     "status": "KnowBody引用的物理假设验证记忆；升级前核对test-time范围、跨任务保留与真实执行证据",
     "discovered": "2026-09-26"
   },
   {
     "cited_by": "https://arxiv.org/html/2609.28530v1",
     "reference": "Lian et al. (2026), Reflective VLA: In-Context Action Consequences Make VLAs Generalize, arXiv:2606.25215.",
-    "urls": ["https://arxiv.org/abs/2606.25215"],
+    "urls": [
+      "https://arxiv.org/abs/2606.25215"
+    ],
     "status": "KnowBody引用的动作—后果上下文基线；待核对是否跨episode保留及硬件偏移协议",
     "discovered": "2026-09-26"
   },
   {
     "cited_by": "https://arxiv.org/html/2609.28530v1",
     "reference": "Liu, Bahety, and Song (2023), REFLECT: Summarizing Robot Experiences for Failure Explanation and Correction, CoRL 2023 / PMLR 229.",
-    "urls": ["https://proceedings.mlr.press/v229/liu23g.html"],
+    "urls": [
+      "https://proceedings.mlr.press/v229/liu23g.html"
+    ],
     "status": "失败解释与经验摘要的正式会议来源；回读任务内纠错、记忆留存和真机分母",
     "discovered": "2026-09-26"
   },
   {
     "cited_by": "https://arxiv.org/html/2609.28838v1",
     "reference": "Zhang et al. (2025), ReinFlow: Fine-tuning Flow Matching Policy with Online Reinforcement Learning, NeurIPS 2025 / arXiv:2505.22094.",
-    "urls": ["https://arxiv.org/abs/2505.22094"],
+    "urls": [
+      "https://arxiv.org/abs/2505.22094"
+    ],
     "status": "不确定性门控论文的最近机制基线；其原实验为较小flow policy，不能直接当VLA规模证据",
     "discovered": "2026-09-26"
   },
   {
     "cited_by": "https://arxiv.org/html/2609.29394v1",
     "reference": "Zhang et al. (2026), Playful Agentic Robot Learning, arXiv:2606.19419.",
-    "urls": ["https://arxiv.org/abs/2606.19419"],
+    "urls": [
+      "https://arxiv.org/abs/2606.19419"
+    ],
     "status": "RACaP与WAA共同引用的自指导play/code-skill基线；待核对play目标、下游迁移和预算匹配",
     "discovered": "2026-09-26"
   },
   {
     "cited_by": "https://arxiv.org/html/2609.28807v1",
     "reference": "Elsayed, Vasan, and Mahmood (2024), Streaming Deep Reinforcement Learning Finally Works, arXiv:2410.14606.",
-    "urls": ["https://arxiv.org/abs/2410.14606"],
+    "urls": [
+      "https://arxiv.org/abs/2410.14606"
+    ],
     "status": "流式机器人适应直接使用的Stream-AC与ObGD基础；待核对从头训练协议和与预训练适应的差异",
     "discovered": "2026-09-27"
   },
   {
     "cited_by": "https://arxiv.org/html/2609.28878v1",
     "reference": "Levy et al. (2026), Simulation Distillation: Pretraining World Models in Simulation for Rapid Real-World Adaptation, arXiv:2603.15759.",
-    "urls": ["https://arxiv.org/abs/2603.15759"],
+    "urls": [
+      "https://arxiv.org/abs/2603.15759"
+    ],
     "status": "OSRAM引用的仿真预训练世界模型快速真机适应基线；全文待核查，不计正式卡片",
     "discovered": "2026-09-27"
   },
   {
     "cited_by": "https://arxiv.org/html/2609.30264v1",
     "reference": "Gao and Xu (2026), Fast LeWorldModel, arXiv:2606.26217.",
-    "urls": ["https://arxiv.org/abs/2606.26217"],
+    "urls": [
+      "https://arxiv.org/abs/2606.26217"
+    ],
     "status": "AD-WM的推理效率和Cube外部基线；待核对训练/规划预算，不能与matched LeWM对照混算",
     "discovered": "2026-09-27"
   },
   {
     "cited_by": "https://openreview.net/forum?id=aT4LG8c6DE",
     "reference": "Xu et al. (2026), VLA-IN-THE-LOOP: Online Policy Correction with World Models for Robust Robotic Grasping, ICLR 2026 submission.",
-    "urls": ["https://openreview.net/forum?id=aT4LG8c6DE"],
+    "urls": [
+      "https://openreview.net/forum?id=aT4LG8c6DE"
+    ],
     "status": "已核对OpenReview题名、摘要和提交记录；在线干预可能是任务内纠错，全文边界与真机分母待核查",
     "discovered": "2026-09-27"
   },
   {
     "cited_by": "https://arxiv.org/html/2603.03818v2",
     "reference": "Yadav et al. (2026), Robust Finetuning of Vision-Language-Action Robot Policies via Parameter Merging, ICLR 2026 / arXiv:2512.08333v3.",
-    "urls": ["https://arxiv.org/abs/2512.08333"],
+    "urls": [
+      "https://arxiv.org/abs/2512.08333"
+    ],
     "status": "顺序模型合并与终身能力获取的重要基线；待核对真实任务序列、基础能力保持和真机分母",
     "discovered": "2026-09-28"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.28314",
     "reference": "Mandlekar et al. (2023), Human-in-the-Loop Task and Motion Planning for Imitation Learning, CoRL 2023 / arXiv:2310.16014.",
-    "urls": ["https://arxiv.org/abs/2310.16014"],
+    "urls": [
+      "https://arxiv.org/abs/2310.16014"
+    ],
     "status": "TANDEM的数据采集前身；待按相同人工时间重核数据效率、干预定义与长程任务覆盖",
     "discovered": "2026-09-28"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.28429",
     "reference": "Kang et al. (2026), Habilis-beta: a Strong Action Model for Robotic Manipulation, arXiv:2602.18813.",
-    "urls": ["https://arxiv.org/abs/2602.18813"],
+    "urls": [
+      "https://arxiv.org/abs/2602.18813"
+    ],
     "status": "ARMS使用的连续运行操作基线；待核对一小时协议、TPH/MTBI口径与人工干预标准，固定后训练策略不能直接视为RSI",
     "discovered": "2026-09-28"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.30868",
     "reference": "Ankile et al. (2025), ResFiT: Residual Off-Policy RL for Finetuning Behavior Cloning Policies, arXiv:2509.19301.",
-    "urls": ["https://arxiv.org/abs/2509.19301"],
+    "urls": [
+      "https://arxiv.org/abs/2509.19301"
+    ],
     "status": "VLaRL直接相关的残差离策略RL基线；待核对真实交互预算、基础策略保持和是否进行部署期更新",
     "discovered": "2026-09-29"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.30868",
     "reference": "Xiao et al. (2025), Self-Improving Vision-Language-Action Models with Data Generation via Residual RL, arXiv:2511.00091.",
-    "urls": ["https://arxiv.org/abs/2511.00091"],
+    "urls": [
+      "https://arxiv.org/abs/2511.00091"
+    ],
     "status": "VLaRL引用的残差RL数据生成路线；待核对自生成数据、残差训练与持久发布的闭环边界",
     "discovered": "2026-09-29"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.30913",
     "reference": "Vats et al. (2025), RecoveryChaining: Learning Local Recovery Policies for Robust Manipulation, arXiv:2410.13979.",
-    "urls": ["https://arxiv.org/abs/2410.13979"],
+    "urls": [
+      "https://arxiv.org/abs/2410.13979"
+    ],
     "status": "Causeway的局部恢复策略对照；待核对恢复链训练预算、状态覆盖与和任务内表征干预的差异",
     "discovered": "2026-09-29"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.31048",
     "reference": "Shin et al. (2026), Back to the Familiar Future: Failure Recovery for VLA Policies via Pre-Imagined Milestone Selection, arXiv:2606.09258.",
-    "urls": ["https://arxiv.org/abs/2606.09258"],
+    "urls": [
+      "https://arxiv.org/abs/2606.09258"
+    ],
     "status": "Kintsugi-VLA的推理时恢复基线；待核对预想里程碑、熟悉度估计和真实/仿真分母",
     "discovered": "2026-09-29"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.31048",
     "reference": "Zhang et al. (2026), Imagining Recovery: Inference-Time Counterfactual Realignment for Vision-Language-Action Models, arXiv:2608.14822.",
-    "urls": ["https://arxiv.org/abs/2608.14822"],
+    "urls": [
+      "https://arxiv.org/abs/2608.14822"
+    ],
     "status": "Kintsugi-VLA引用的反事实推理时恢复工作；待核对世界模型/重对齐机制和是否只在当前episode生效",
     "discovered": "2026-09-29"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.31577",
     "reference": "Wang et al. (2026), MotionBricks: Scalable Real-Time Motions with Modular Latent Generative Model and Smart Primitives, arXiv:2604.24833.",
-    "urls": ["https://arxiv.org/abs/2604.24833"],
+    "urls": [
+      "https://arxiv.org/abs/2604.24833"
+    ],
     "status": "Generate, Track, Improve的运动库来源；待核对生成器模块化、地形条件与后训练时的能力保持",
     "discovered": "2026-09-29"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.32069",
     "reference": "Eysenbach et al. (2017), Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning, arXiv:1711.06782.",
-    "urls": ["https://arxiv.org/abs/1711.06782"],
+    "urls": [
+      "https://arxiv.org/abs/1711.06782"
+    ],
     "status": "FIND的经典自动复位前身；待核对前向/复位策略成本、安全中止与FIND无复位任务切换的matched边界",
     "discovered": "2026-09-30"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.32069",
     "reference": "Sharma et al. (2021), Autonomous Reinforcement Learning via Subgoal Curricula, NeurIPS 2021 / arXiv:2107.12931.",
-    "urls": ["https://arxiv.org/abs/2107.12931"],
+    "urls": [
+      "https://arxiv.org/abs/2107.12931"
+    ],
     "status": "FIND的reset-free课程基线；待核对三数量级干预下降口径、纯仿真范围与课程初态假设",
     "discovered": "2026-09-30"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.32069",
     "reference": "Kumar et al. (2024), Practice Makes Perfect: Planning to Learn Skill Parameter Policies, arXiv:2402.15025.",
-    "urls": ["https://arxiv.org/abs/2402.15025"],
+    "urls": [
+      "https://arxiv.org/abs/2402.15025"
+    ],
     "status": "FIND沿引的自主练习与能力感知规划路线；优先核对真机数小时练习、两项长程任务及无复位协议",
     "discovered": "2026-09-30"
   },
   {
     "cited_by": "https://arxiv.org/abs/2609.32069",
     "reference": "Sun et al. (2022), Fully Autonomous Real-World Reinforcement Learning with Applications to Mobile Manipulation, CoRL / arXiv:2107.13545.",
-    "urls": ["https://arxiv.org/abs/2107.13545"],
+    "urls": [
+      "https://arxiv.org/abs/2107.13545"
+    ],
     "status": "FIND沿引的真机连续自主RL前身；待核对约40小时训练、抓取课程预训练及人工干预定义",
+    "discovered": "2026-09-30"
+  },
+  {
+    "cited_by": "https://arxiv.org/html/2609.38178v1",
+    "reference": "Du et al. (2024), To Err is Robotic: Rapid Value-Based Trial-and-Error during Deployment, arXiv:2406.15917.",
+    "urls": [
+      "https://arxiv.org/abs/2406.15917"
+    ],
+    "status": "已核对原始arXiv摘要；测试时价值引导重试，可作为不持久更新的边界对照，全文实验仍待查",
+    "discovered": "2026-09-30"
+  },
+  {
+    "cited_by": "https://arxiv.org/html/2609.31924v1",
+    "reference": "Wang et al. (2026), Interactive World Simulator for Robot Policy Training and Evaluation, RSS / arXiv:2603.08546.",
+    "urls": [
+      "https://arxiv.org/abs/2603.08546"
+    ],
+    "status": "已核对原始arXiv摘要；HapticWorld沿用其视觉世界模拟器骨干，待回读真机预算和虚实评测协议",
     "discovered": "2026-09-30"
   }
 ]

@@ -3,15 +3,15 @@
 
 # 论文速览 · Awesome Physical AI RSI
 
-**65 篇正式阅读卡片**，按研究问题分组；组内为建议阅读顺序，**不是性能或可信度排名**。点击短名看完整题名、核心图、实验口径及局限；点击 arXiv ID 回原文。作者结果未独立复现。
+**69 篇正式阅读卡片**，按研究问题分组；组内为建议阅读顺序，**不是性能或可信度排名**。点击短名看完整题名、核心图、实验口径及局限；点击 arXiv ID 回原文。作者结果未独立复现。
 
-[原报告 141 项（待逐项复核）](../baseline.md) · [摘要候选 77 项](../candidates.md) · [BibTeX](../references.bib)
+[原报告 141 项（待逐项复核）](../baseline.md) · [摘要候选 80 项](../candidates.md) · [BibTeX](../references.bib)
 
 [策略与 VLA 学习](#policy) · [世界模型与控制接口](#world) · [记忆与上下文适应](#memory) · [技能、代码与 harness](#skills) · [奖励、验证器与安全反馈](#feedback) · [复位、恢复与数据采集](#infrastructure) · [持续学习、基准与强对照](#continual)
 
 <a id="policy"></a>
 
-## 策略与 VLA 学习 · 14 篇
+## 策略与 VLA 学习 · 15 篇
 
 > 机器人执行后的反馈怎样进入策略？更新是否真正留存？
 
@@ -31,10 +31,11 @@
 | [Generate, Track, Improve](generate-track-improve.md) | 在仿真中用 RL 微调运动生成器，再冻结部署人形机器人。 | 边界案例 | [arXiv:2609.31577v1](https://arxiv.org/abs/2609.31577) |
 | [Banana Kick / RISE](banana-kick.md) | 根据物理响应调整奖励目标，迭代学习人形足球新技能。 | 核心自我改进 | [arXiv:2609.27269v1](https://arxiv.org/abs/2609.27269) |
 | [RouteRLT](routerlt.md) | 冻结通用 VLA 与 RL 专家，学习何时切换控制权。 | 支撑组件 | [arXiv:2609.26467v1](https://arxiv.org/abs/2609.26467) |
+| [Skill-Space Shooting](skill-space-shooting.md) | 用已有技能修补真机策略失败，并把成功纠错片段训练回独立运行的策略。 | 核心自我改进 | [arXiv:2609.38178v1](https://arxiv.org/abs/2609.38178) |
 
 <a id="world"></a>
 
-## 世界模型与控制接口 · 8 篇
+## 世界模型与控制接口 · 9 篇
 
 > 预测是否改善行动？模型在部署后有没有更新？
 
@@ -48,6 +49,7 @@
 | [Streaming-WAM](streaming-wam.md) | 用已执行动作前缀约束后续预测，减少异步控制等待。 | 支撑组件 | [arXiv:2609.28927v1](https://arxiv.org/abs/2609.28927) |
 | [World-Model Benchmark Survey](world-model-benchmarks-survey.md) | 梳理 160 个基准，审查世界模型预测是否连接实际行动收益。 | 综述 | [arXiv:2609.29669v1](https://arxiv.org/abs/2609.29669) |
 | [World Models: Plausible → Controllable → Actionable](world-models-actionable-survey.md) | 从可信预测、干预响应与行动效用三个层次组织世界模型文献。 | 重点综述 | [arXiv:2609.16697v1](https://arxiv.org/abs/2609.16697) |
+| [HapticWorld](hapticworld.md) | 在交互式世界模型中预测并回馈扭矩，辅助力觉示范采集与真机策略训练。 | 支撑组件 | [arXiv:2609.31924v1](https://arxiv.org/abs/2609.31924) |
 
 <a id="memory"></a>
 
@@ -71,7 +73,7 @@
 
 <a id="skills"></a>
 
-## 技能、代码与 harness · 13 篇
+## 技能、代码与 harness · 14 篇
 
 > 改写的是执行程序、外部技能，还是产生更新的规则？
 
@@ -90,10 +92,11 @@
 | [Show-Harness](show-harness.md) | 用离散语义动作与形态专用解释器连接 VLM 和机器人。 | 边界案例 | [arXiv:2609.10522v1](https://arxiv.org/abs/2609.10522) |
 | [WAA](world-action-agent.md) | VLM 预演并审查多模态技能，发布后冻结执行。 | 多模态技能演化 | [arXiv:2609.29964v1](https://arxiv.org/abs/2609.29964) |
 | [What Stops RSI in Robotics](what-stops-recursive-self-improvement-robotics.md) | 审计 123 轮技能与 harness 修改：目标任务零成功，另有 113 次人工修复。 | 严格递归候选 | [arXiv:2609.31760v1](https://arxiv.org/abs/2609.31760) |
+| [RoboSkill](roboskill-explore-execute-evolve.md) | 将执行记录提炼为可跨任务和代理复用的文本与代码技能包，迭代修订增益非单调。 | 持续改进 | [arXiv:2609.37810v1](https://arxiv.org/abs/2609.37810) |
 
 <a id="feedback"></a>
 
-## 奖励、验证器与安全反馈 · 5 篇
+## 奖励、验证器与安全反馈 · 6 篇
 
 > 谁决定更新方向？谁独立验收更新确实有用？
 
@@ -104,6 +107,7 @@
 | [No Free Checker](no-free-checker.md) | 梳理机器人验证器的来源、成本与可信度及约 150 项相关工作。 | 重点综述 | [arXiv:2609.09250v1](https://arxiv.org/abs/2609.09250) |
 | [SeeQ](seeq.md) | 训练可迁移视觉语言 Q 函数，为冻结 VLA 的动作候选排序。 | 支撑组件 | [arXiv:2609.22085v1](https://arxiv.org/abs/2609.22085) |
 | [VLA-Corrector](vla-corrector.md) | 用可观测信号检测阶段偏差，触发冻结 VLA 的任务内恢复。 | 边界案例 | [arXiv:2609.06508v1](https://arxiv.org/abs/2609.06508) |
+| [PHIRL](phirl.md) | 用稀疏的人标进度约束IRL奖励，减少奖励投机和低质示范偏差。 | 支撑组件 | [arXiv:2609.31855v1](https://arxiv.org/abs/2609.31855) |
 
 <a id="infrastructure"></a>
 
