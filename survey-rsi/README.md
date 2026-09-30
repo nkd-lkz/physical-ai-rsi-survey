@@ -1,67 +1,58 @@
-<p align="center"><img src="assets/cover.svg" alt="Physical AI · Self-Improvement · Research Library" width="100%"></p>
+[主题地图](topics.md) · [证据对照](evidence-map.md) · [综述提纲](survey-outline.md) · [论文索引](papers/README.md)
 
-# 具身 / 机器人 RSI 研究库
+# 综述写作工作台
 
-面向综述写作，按 **问题 → 方法 → 结果 → 引用价值 → 证据边界** 阅读论文。持续区分任务内适应、可留存的自我改进，以及改进器自身的递归增强。
+**主线：物理经验如何形成可验证、可保留的能力更新？** 每张论文卡片按“问题 → 方法 → 结果 → 引用价值 → 证据边界”阅读；章节则围绕一个问题比较多篇工作。
 
 <!-- stats:start -->
 **65 篇阅读卡片** · **141 项原报告条目** · **77 项待核查** · **100 条引文线索**
 <!-- stats:end -->
 
-**最近更新：2026-09-30** · [当日增量调研](daily/2026-09-30.md) · [9月29日调研](daily/2026-09-29.md) · [9月28日调研](daily/2026-09-28.md) · [历史日志](daily/)
+**更新至 2026-09-30** · [最新增量](daily/2026-09-30.md) · [历史日志](daily/)
 
-## 收录范围
+## 合作者：从这里动笔
 
-本库只收录**公开论文、作者项目/代码、可追溯行业来源，以及基于这些来源的综述分析**。每篇采用固定阅读模板，保留原图来源、指标口径和证据边界。项目方案、个人研究假设与实验进度不属于本库内容。
-
-[四类 Physical RSI 线索对照](discussions/physical-rsi-sept24.md) · [企业系统案例](cases/README.md) · [来源边界](SCOPE.md) · [本次整理说明](daily/2026-09-26-boundary-cleanup.md)
-
-## 从这里开始
-
-| 我想做什么 | 阅读入口 |
-| :--- | :--- |
-| 找某个方向的相关工作 | **[按主题浏览](topics.md)** — 策略、世界模型、技能、记忆、持续学习等 10 个入口 |
-| 判断一篇工作究竟证明了什么 | **[证据对照](evidence-map.md)** — 更新对象、保留范围、物理证据、关键限制 |
-| 开始组织综述章节 | **[综述提纲与分类轴](survey-outline.md)** — 章节问题、已有支撑和还缺的证据 |
-| 搜题名、短名或 arXiv ID | **[全部阅读卡片](papers/README.md)** · **[原报告 141 项](baseline.md)** |
-| 接着读下一批论文 | **[候选队列](candidates.md)** · **[引文溯源](references.md)** |
-| 导入文献管理器或 LaTeX | **[BibTeX](references.bib)** — 阅读卡片对应的 arXiv 元数据 |
-
-## 本轮先读这三篇
-
-| 工作 | 为什么值得读 | 放到综述哪里 |
+| 步骤 | 打开 | 写作产物 |
 | :--- | :--- | :--- |
-| **[FIND](papers/find-agentic-real-world-rl.md)** | 5个独立种子、每20k步独立人评，并披露6小时运行中的30次人工恢复；是当前较完整的真机持久改进证据 | 真机在线VLA-RL、自动课程、自评可信度、复位与人工预算 |
-| **[What Stops RSI in Robotics](papers/what-stops-recursive-self-improvement-robotics.md)** | 123轮持续修改仍未完成目标任务，并记录113次人工harness修复；提供少见的改进器失败审计 | 严格递归判据、长程信用分配、harness对照、负结果 |
-| **[Astra Robot Manipulation](papers/robot-manipulation-gpt6-astra.md)** | 将身体知识、同步经验和可执行技能分开比较，并给出仿真与12次真机结果 | 非参数经验复用、代码技能、sim-to-real、持久更新边界 |
+| 定义问题 | [提纲与分类轴](survey-outline.md) | 确定章节要回答的问题、纳入范围与章节间的关系 |
+| 搭建比较 | [证据矩阵](evidence-map.md) | 按更新对象、留存范围、真机证据、人工成本和限制做对照表 |
+| 追到原文 | [主题地图](topics.md) → [论文卡片](papers/README.md) | 每段选择 2–4 篇，核对图表、版本、实验分母和方法差别 |
+| 管理引用 | [BibTeX](references.bib) · [原报告](baseline.md) · [候选](candidates.md) | 正式引用已核查的原文；把尚未逐表核查的线索留在待办区 |
 
-三篇形成“持久参数更新—冻结模型工件复用—外层改进器审计”的对照。FIND仍使用预定义可逆任务库与固定外层机制；Astra技能经过研究者重构；123轮报告是单系统仿真负结果。全部结果均为作者报告，未复现。
+**一个段落的写法：** 提出可检验的问题 → 比较机制与实验条件 → 写出证据支持到哪里、还缺什么。不要把阅读卡片直接连成论文摘要清单。
 
-## 按综述主线浏览
+## 十个研究入口
 
-| 能力更新 | 反馈与运行条件 | 评价与组织 |
+| 更新什么 | 反馈和物理条件 | 如何评价与组织 |
 | :--- | :--- | :--- |
 | [策略 / VLA-RL](topics.md#policy) | [奖励 / 验证 / 安全](topics.md#feedback) | [持续与部署学习](topics.md#continual) |
 | [世界模型](topics.md#world) | [复位 / 恢复 / 采集](topics.md#infrastructure) | [自动研究与改进器](topics.md#improvers) |
 | [技能 / 代码 / harness](topics.md#skills) | [课程 / 任务 / 环境](topics.md#curriculum) | [综述 / 评价方法](topics.md#surveys) |
 | [记忆 / 上下文](topics.md#memory) | | |
 
-## 阅读时保留的三个区别
+主题是检索入口，不是证据等级；一篇论文可以出现于多个主题。
 
-- **任务内适应**：重试、重规划或上下文更新帮助当前任务；需要说明重置边界。
-- **持久自我改进**：自身执行反馈形成可留存更新，并评估后续能力；不等于完全无人参与。
-- **改进器递归增强**：生成、选择或执行更新的机制本身被修改，且后续改进能力得到验证。标题出现 RSI 不足以证明这一点。
+## 三组可直接写成小节的对读
 
-[RegenHarness](papers/regenharness.md) 当前展示的是执行案例与版本化修订协议；[LEMCA](papers/lemca.md) 演化的是控制架构。两者都不应只凭“harness / 演化 / 改进器”用词升级为严格递归实证。
+| 问题 | 放在一起读 | 要控制的差别 |
+| :--- | :--- | :--- |
+| “从经验变强”到底更新了什么？ | [FIND](papers/find-agentic-real-world-rl.md) · [Astra Robot Manipulation](papers/robot-manipulation-gpt6-astra.md) · [What Stops RSI](papers/what-stops-recursive-self-improvement-robotics.md) | 策略参数、外部工件与改进流程；各自的人工参与和验收指标 |
+| 新能力是否伴随遗忘？ | [ContinualVLA-Real](papers/continual-vla-real-world.md) · [Pretrained VLA Forgetting](papers/pretrained-vla-forgetting.md) · [FAN](papers/fan.md) | 真机/仿真、本体与动作坐标、回放规模、旧任务保持 |
+| 闭环能运行，是否就证明能力增长？ | [HALTER](papers/halter.md) · [LIBERO-RECOVER](papers/libero-recover.md) · [No Free Checker](papers/no-free-checker.md) | 自动复位、恢复能力、验证器可靠性与最终任务收益 |
+
+[更多横向对照与指标口径](evidence-map.md) · [章节可直接展开的综合论点](survey-outline.md#可以直接展开的综合论点)
+
+## 证据使用规则
+
+- **任务内适应**记录重置边界；**持久自我改进**需要跨尝试留存及后续验收；**改进器递归增强**还要证明更新规则自身变化带来后续改进效率。标题中的“RSI / self-evolving”不是证据。
+- 正式卡片核查了方法与指定实验，**并未复现**；不同任务的成功率不可直接排名。原报告条目、摘要候选、引文线索和企业自述与正式卡片分开使用。
+- 原图标明作者来源、版本与图号；引用前回到原文核对。新增卡片用[固定模板](templates/paper.md)，来源要求见[收录边界](SCOPE.md)。
 
 <details>
-<summary><strong>证据、来源与维护</strong></summary>
+<summary>维护入口：数据、生成索引与贡献</summary>
 
-- 正式卡片：方法及指定实验/表格已核查，均未复现；原图注明版本和图号。
-- 原报告条目：保留公开题名和链接，未逐项重新核查，不与新增卡片混算。
-- 候选与引文：不等于全文已读；只读摘要时不填猜测结果。
-- [来源与 awesome 入口](sources.md) · [阅读模板](templates/paper.md) · [维护规范](MAINTENANCE.md)
-- [结构化目录](data/catalog.json) · [去重基线](data/baseline.json) · [候选数据](data/candidates.json) · [引文数据](data/reference-frontier.json)
-- 修改数据后运行 `python survey-rsi/scripts/build_index.py`；首页正文、论文卡片与历史日志保留人工编辑。
+[来源与 awesome 入口](sources.md) · [引文溯源](references.md) · [企业案例](cases/README.md) · [维护规范](MAINTENANCE.md)
+
+结构化数据：[目录](data/catalog.json) · [去重基线](data/baseline.json) · [候选](data/candidates.json) · [引文](data/reference-frontier.json) · [主题导航](data/navigation.json)。修改数据后在仓库根目录运行 `python survey-rsi/scripts/build_index.py`；脚本更新派生索引和本页统计区，不覆盖卡片正文及历史日志。
 
 </details>
