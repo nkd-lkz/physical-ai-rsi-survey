@@ -40,8 +40,8 @@
 ## 导航与同日追加维护（2026-09-24 起）
 
 - `README.md` 是精简入口，保留人工编辑正文；统计区由脚本更新，不再把所有论文堆成首页长表。
-- `data/catalog.json`、`data/candidates.json`、`data/reference-frontier.json` 为索引数据；`data/navigation.json` 管理主题与卡片路径，同篇可多主题。
-- 新卡片写完后运行 `python survey-rsi/scripts/build_index.py`（仓库根目录）。脚本更新 `papers/README.md`、`topics.md`、`baseline.md`、`candidates.md`、`references.md`、`references.bib` 和首页统计区，不改卡片正文或日志。
+- `data/catalog.json`、`data/candidates.json`、`data/reference-frontier.json` 为索引数据；`data/navigation.json` 管理主题与卡片路径，同篇可多主题。`data/awesome.json` 管理论文速览表的唯一主分组与人工核对的一句话定位；新增正式卡片时必须在此添加一次，不要把候选写入。
+- 新卡片写完后运行 `python survey-rsi/scripts/build_index.py`（仓库根目录）。脚本更新 `papers/README.md` 的分组总表、`topics.md`、`baseline.md`、`candidates.md`、`references.md`、`references.bib` 和首页统计区，不改卡片正文或日志。
 - 新卡片的文件名加入 `data/navigation.json` 中恰当主题；若有新的综述发现，再人工更新 `evidence-map.md`、`survey-outline.md` 和首页推荐阅读，避免长期停留在旧批次。
 - 同一天已有日志时，保留它并写 `daily/YYYY-MM-DD-follow-up.md`；如仍有后续轮次可使用有含义的后缀。日报分别统计“本轮增量”和“当前累计”，不要将早间成果再次计新。
 - 编辑派生索引时，先把改动反映到数据或生成脚本，避免下一轮生成覆盖人工内容；历史阅读卡片和日志不做批量事实重写。
