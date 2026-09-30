@@ -1,4 +1,4 @@
-[主题地图](topics.md) · [证据对照](evidence-map.md) · [综述提纲](survey-outline.md) · [论文索引](papers/README.md)
+[论文速览表](papers/README.md) · [主题地图](topics.md) · [证据对照](evidence-map.md) · [综述提纲](survey-outline.md)
 
 # 综述写作工作台
 
@@ -16,7 +16,7 @@
 | :--- | :--- | :--- |
 | 定义问题 | [提纲与分类轴](survey-outline.md) | 确定章节要回答的问题、纳入范围与章节间的关系 |
 | 搭建比较 | [证据矩阵](evidence-map.md) | 按更新对象、留存范围、真机证据、人工成本和限制做对照表 |
-| 追到原文 | [主题地图](topics.md) → [论文卡片](papers/README.md) | 每段选择 2–4 篇，核对图表、版本、实验分母和方法差别 |
+| 追到原文 | [论文速览表](papers/README.md) → [主题地图](topics.md) | 每段选择 2–4 篇，点进卡片核对图表、版本、分母和方法差别 |
 | 管理引用 | [BibTeX](references.bib) · [原报告](baseline.md) · [候选](candidates.md) | 正式引用已核查的原文；把尚未逐表核查的线索留在待办区 |
 
 **一个段落的写法：** 提出可检验的问题 → 比较机制与实验条件 → 写出证据支持到哪里、还缺什么。不要把阅读卡片直接连成论文摘要清单。
