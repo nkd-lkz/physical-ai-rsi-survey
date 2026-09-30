@@ -1,0 +1,61 @@
+# 持续检索入口
+
+优先原始论文和作者网页；下列集合用于发现线索，收录或分类不构成实证认证。
+
+- [cocacola-lab/awesome-embodied-rsi](https://github.com/cocacola-lab/awesome-embodied-rsi)
+- [harooos/awesome-coding-agents-for-robot-learning](https://github.com/harooos/awesome-coding-agents-for-robot-learning)
+- [visitworld123/Awesome-Robot-Use-Agent](https://github.com/visitworld123/Awesome-Robot-Use-Agent)
+- [theseus-labs-rsi/awesome-rsi](https://github.com/theseus-labs-rsi/awesome-rsi)
+- [Prism-Shadow/awesome-rsi](https://github.com/Prism-Shadow/awesome-rsi)
+- [lobehub/awesome-rsi](https://github.com/lobehub/awesome-rsi)
+- [kairunwen/Awesome-Robot-Use-Agent](https://github.com/kairunwen/Awesome-Robot-Use-Agent)
+- [ANative-Lab/Awesome-Self-Evolving-Agents](https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents)
+- [Songlin-Dong/Awesome-Embodied-Continual-Learning](https://github.com/Songlin-Dong/Awesome-Embodied-Continual-Learning)
+- [Denghaoyuan123/Awesome-RL-VLA](https://github.com/Denghaoyuan123/Awesome-RL-VLA)
+- [NTUMARS/Awesome-World-Model-for-Robotics-Policy](https://github.com/NTUMARS/Awesome-World-Model-for-Robotics-Policy)
+- [leezythu/Awesome-Harness-Self-Improvement](https://github.com/leezythu/Awesome-Harness-Self-Improvement)
+
+## 引文追踪
+
+当前数量以生成的[引文队列](references.md)和[data/reference-frontier.json](data/reference-frontier.json)为准。2026-09-26继续从KnowBody、门控在线RL、RACaP与WAA回溯 PhysMem、Reflective VLA、REFLECT、ReinFlow 和 Playful Agentic Robot Learning；这些线索尚未在本轮读完全文，不算正式卡片。未声称遍历完全部参考文献。
+
+
+
+## 2026-09-24 扩展检索入口
+
+- 官方新稿列表：[cs.RO](https://arxiv.org/list/cs.RO/new)、[cs.AI](https://arxiv.org/list/cs.AI/new)、[cs.LG](https://arxiv.org/list/cs.LG/new)。列表随日期变化，固定版本与实际检索结果记录在当轮日志。
+- awesome 线索复查：[Embodied RSI](https://github.com/cocacola-lab/awesome-embodied-rsi)、[Coding Agents for Robot Learning](https://github.com/harooos/awesome-coding-agents-for-robot-learning)、[Embodied Continual Learning](https://github.com/Songlin-Dong/Awesome-Embodied-Continual-Learning)、[RL-VLA](https://github.com/Denghaoyuan123/Awesome-RL-VLA)。本库独立维护原始证据，没有将其他仓库全文镜像或把其标签视作结论。
+- 通用自进化综述：[A Survey of Self-Evolving Agents](https://arxiv.org/html/2507.21046v4)。本轮仅核对分类入口和相关引文，进入候选；其 Voyager 引文已回到[原始摘要](https://arxiv.org/abs/2305.16291)，原报告已有，不重复计新。
+- 奖励/课程追溯：HiRE → 奖励塑形、成功/失败对比奖励；Banana Kick → [ALP-GMM 的 CoRL 原始记录](https://proceedings.mlr.press/v100/portelas20a.html)与 [TeachMyAgent 的 ICML 原始记录](https://proceedings.mlr.press/v139/romac21a.html)。会议摘要已核对，实验全文仍待补读。
+- 所有线索的阅读状态和下一步问题见[候选队列](candidates.md)与[引文队列](references.md)。搜索不到或正文受限不等于没有相关工作。
+
+
+## 2026-09-25 扩展检索入口
+
+- 官方新稿列表：[cs.RO](https://arxiv.org/list/cs.RO/new)、[cs.AI](https://arxiv.org/list/cs.AI/new)、[cs.LG](https://arxiv.org/list/cs.LG/new)。北京时间9月25日早间仍显示“Thursday, 24 September 2026”，因此本轮没有把候选升级误计为9月25日新发表。
+- awesome 线索复查：[Embodied RSI](https://github.com/cocacola-lab/awesome-embodied-rsi)、[RL-VLA](https://github.com/Denghaoyuan123/Awesome-RL-VLA)、[Embodied Continual Learning](https://github.com/Songlin-Dong/Awesome-Embodied-Continual-Learning)、[World Models for Robotic Policy Learning](https://github.com/NTUMARS/Awesome-World-Model-for-Robotics-Policy)。这些集合用于发现和检查遗漏；本轮四张正式卡片均回到arXiv全文、作者项目或代码。
+- 全文升级：[InternW0](https://arxiv.org/html/2609.27656v1)、[MemBodied](https://arxiv.org/html/2609.28256v1)、[X2Real](https://arxiv.org/html/2609.27449v1)、[The Gaussian Is Enough](https://arxiv.org/html/2609.27070v1)。
+- OpenReview定向检索未得到可独立核验的9月25日机器人RSI新条目；这只记录本轮搜索结果，不代表平台上不存在相关投稿。
+
+## 2026-09-26 扩展检索入口
+
+- 官方列表已切换到“Friday, 25 September 2026”。本轮对该批次逐项按无版本arXiv ID、规范化题名和作者去重，并回读8篇全文；论文首次提交日期仍按各自submission history记录为9月22–24日，不能把列表日期当发表日期。
+- 全文入口：[KnowBody](https://arxiv.org/html/2609.28530v1)、[Uncertainty-Gated Exploration](https://arxiv.org/html/2609.28838v1)、[PACL](https://arxiv.org/html/2609.29000v1)、[Self-Adaptive VLA](https://arxiv.org/html/2609.30092v1)、[RACaP](https://arxiv.org/html/2609.29394v1)、[RoboRecover](https://arxiv.org/html/2609.28952v1)、[WAA](https://arxiv.org/html/2609.29964v1) 与 [world-model benchmark综述](https://arxiv.org/html/2609.29669v1)。
+- 同批只读摘要的OSRAM、AdaHVLA、Streaming/Rolling-WAM、AD-WM、DSD、RWM、RAPID和Body-Grounded Replanning进入候选队列，没有用题名补写结果。
+- awesome入口用于检查遗漏；正式卡片的题名、版本、图、样本量和结论均回到arXiv全文。OpenReview定向检索未得到比本轮arXiv全文更直接、且不与现有库重复的新增RSI实证。
+
+## 2026-09-27 扩展检索入口
+
+- arXiv 官方 `cs.RO/new`、`cs.AI/new`、`cs.LG/new` 在北京时间9月27日早间仍停留于 Friday, 25 September 2026 批次；因此当日新发表记0，不把此前候选升级记成当天新稿。
+- 全文升级：[AdaHVLA](https://arxiv.org/html/2609.29204v1)、[OSRAM](https://arxiv.org/html/2609.28878v1)、[RAPID](https://arxiv.org/html/2609.30249v1)、[AD-WM](https://arxiv.org/html/2609.30264v1)；旧稿补漏：[Streaming Deep RL for Robotics](https://arxiv.org/html/2609.28807v1)。代码或项目链接仅采用论文明确给出的作者入口。
+- 新增摘要候选：[OCC4M](https://arxiv.org/abs/2609.28798) 与 [Pretrained VLAs are Surprisingly Resistant to Forgetting](https://arxiv.org/abs/2603.03818)。后者已在引文队列出现，本轮按 arXiv ID 合并后进入全文候选，没有重复计引文。
+- 复查 [Embodied RSI](https://github.com/cocacola-lab/awesome-embodied-rsi)、[Coding Agents for Robot Learning](https://github.com/harooos/awesome-coding-agents-for-robot-learning)、[Embodied Continual Learning](https://github.com/Songlin-Dong/Awesome-Embodied-Continual-Learning)、[RL-VLA](https://github.com/Denghaoyuan123/Awesome-RL-VLA) 与 [World Models for Robotic Policy Learning](https://github.com/NTUMARS/Awesome-World-Model-for-Robotics-Policy) 作为查漏入口；分类与数字仍回到原论文核查。
+- OpenReview 机器人 continual learning / online correction 定向搜索定位到 VLA-in-the-Loop；论坛触发浏览器验证页，本轮只依据可访问的官方题名、摘要索引和提交记录加入引文线索，没有伪装成全文阅读。
+
+## 2026-09-28 扩展检索入口
+
+- arXiv 官方 [cs.RO/new](https://arxiv.org/list/cs.RO/new)、[cs.AI/new](https://arxiv.org/list/cs.AI/new) 与 [cs.LG/new](https://arxiv.org/list/cs.LG/new) 在北京时间9月28日早间仍显示 Friday, 25 September 2026；当日新发表记0，候选升级与旧文补漏单独计数。
+- 全文升级：[OCC4M](https://arxiv.org/html/2609.28798v1)、[ARMS](https://arxiv.org/html/2609.28429v1)、[Streaming-WAM](https://arxiv.org/html/2609.28927v1)、[TANDEM](https://arxiv.org/html/2609.28314v1) 与 [Pretrained VLA Forgetting](https://arxiv.org/html/2603.03818v2)；旧引文补漏：[ContinualVLA-Real](https://arxiv.org/abs/2605.26820) 采用v3 PDF，避免把旧HTML版本的作者和结果当作当前版本。
+- 新摘要候选：[MemoryVLA](https://arxiv.org/abs/2508.19236)、[RoboStream](https://arxiv.org/abs/2603.12939) 与 [MemER](https://arxiv.org/abs/2510.20328)。三项只依据当前arXiv摘要加入候选，尚未按全文模板写结果。
+- 引文回溯新增 [Robust VLA Finetuning via Parameter Merging](https://arxiv.org/abs/2512.08333)、[HITL-TAMP](https://arxiv.org/abs/2310.16014) 与 [Habilis-beta](https://arxiv.org/abs/2602.18813)。它们仍在引文队列，不能算正式核查卡片。
+- OpenReview定向搜索没有定位到比上述原始arXiv全文更直接、且未与库内条目重复的新增具身RSI实证；论坛正文访问限制延续，因此不根据题名补写方法或结果。
